@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/016c62340a3c5b428fc7f835c417e39faf4d4254-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
+    "category": "Anúncios",
+    "date": "05/08/2025",
+    "title": "Conheça o Shotcall!",
+    "subtitle": "Assista, preveja e ganhe!",
+    "blog": true
+  },
+  {
+    "id": 1,
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4930a598d665650cb31f984c00a4198b0df0b4d8-4984x2803.jpg?auto=format&fit=crop&q=80&h=447&w=794&crop=center",
+    "category": "Esports",
+    "date": "01/08/2025",
+    "title": "O Champions 2026 será em Xangai!",
+    "subtitle": "Saiba mais sobre o Champions do ano que vem.",
+    "blog": true
+  },
+  {
+    "id": 2,
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b40c7b8bcc65d4407ae82d61ee91fd61f20b5bb6-1920x1080.jpg?auto=format&fit=crop&q=80&h=447&w=794&crop=center",
+    "category": "atualizações do jogo",
+    "date": "29/07/2025",
+    "title": "PUMP IT UP // Trailer de Revelação da Skin SplashX",
+    "subtitle": "Ah, que delícia o verão! Hora do TCHIBUM no Vavá.",
+    "blog": false
+  }
+]
