@@ -82,7 +82,7 @@
     "name": "Sage",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/58a180961a14beb631877921e647c233804853c1-616x822.png?auto=format&fit=fill&q=80&w=616",
     "altcard": "Imagem da Agente Sage de frente",
-    "internalImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ded53d6f127a00074675eb79fde95437f2c2f521-5120x1772.png?auto=format&fit=fill&q=80&w=2880df5c69c4a1adcae5cf5ec31e7b0e252e66-5120x1772.png?auto=format&fit=fill&q=80&w=2880",
+    "internalImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ded53d6f127a00074675eb79fde95437f2c2f521-5120x1772.png?auto=format&fit=fill&q=80&w=1440",
     "description": "Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha.",
     "function": "Sentinela",
     "habilidade": [
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Reyna",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7cb513c9b3eae3286449776e85753138436d553c-616x822.png?auto=format&fit=fill&q=80&w=580",
     "altcard": "Imagem da Agente Reyna de frente",
@@ -274,7 +274,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Killjoy",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/820d36d431fff77b1e1ece39ad6f007746bd31f6-616x822.png?auto=format&fit=fill&q=80&w=567",
     "altcard": "Imagem da Agente Killjoy de frente",
@@ -302,23 +302,23 @@
         "name": "NANOENXAME",
         "description": "EQUIPE uma granada Nanoenxame. DISPARE para lançar a granada. Ao atingir uma superfície, a Nanoenxame fica oculta. ATIVE a Nanoenxame para acionar um enxame de nanorrobôs que causam dano.",
         "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b47a0b24d2499935d28f845a067984a52dbc2542.mp4",
-        "icon": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/…auto=format&fit=crop&q=80&h=128&w=128&crop=center"
+        "icon": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4ca9c7f4a85e5e454d8d9638247bd36cab1d4124-256x256.png?auto=format&fit=crop&q=80&h=64&w=64&crop=center"
       },
       {
         "id": 3,
         "name": "CONFINAMENTO",
         "description": "EQUIPE o dispositivo de Confinamento. DISPARE para ativá-lo. Após um longo processo de ativação, o dispositivo detém todos os inimigos no raio de alcance. O dispositivo pode ser destruído pelos inimigos.",
         "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9485f7bbf04841f4c37e031f07dad03e9cbc1bf9.mp4",
-        "icon": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/…auto=format&fit=crop&q=80&h=128&w=128&crop=center"
+        "icon": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d7d7787df75af327d171b723a262172693125dc4-256x256.png?auto=format&fit=crop&q=80&h=64&w=64&crop=center"
       }
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Breach",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e435c3378b7999a3338b408dbb5da8ba63f91150-616x822.png?auto=format&fit=fill&q=80&w=567",
     "altcard": "Imagem do Agente Breach de frente",
-    "internalImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d1a10ef502d13649e803119b02b7c9917bfc860c-5120x1772.png?auto=format&fit=fill&q=80&w=2652",
+    "internalImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/39d339b3de35f47fb0bc4bb295a9dc4aa07eeb55-5120x1772.png?auto=format&fit=fill&q=80&w=5120",
     "description": "Breach, o homem-biônico sueco, dispara poderosos jatos cinéticos para forçar a abertura de um caminho pelo território inimigo. O dano e a interrupção que ele causa garantem que nenhuma luta seja justa.",
     "function": "Iniciador",
     "habilidade": [
@@ -343,19 +343,19 @@
         "name": "PÓS-CHOQUE",
         "description": "EQUIPE uma carga de fusão. DISPARE a carga para armar um jato de ação lenta pela parede. O jato causa muito dano a todos que estiverem na área de efeito.",
         "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/592212ab60d09999d493c2099f9260d59fab917a.mp4",
-        "icon": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/…auto=format&fit=crop&q=80&h=128&w=128&crop=center"
+        "icon": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2621c00e27da47f6a57772902c7806a7bfe0eb66-256x256.png?auto=format&fit=crop&q=80&h=128&w=128&crop=center"
       },
       {
         "id": 3,
         "name": "ONDA TROVEJANTE",
         "description": "EQUIPE uma carga sísmica. Dispare para lançar um terremoto em cascata por todo o terreno num grande cone. O terremoto estonteia e derruba todos que estiverem na área de efeito.",
         "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/207b0ab21f8e27e98ca22f4b5546cc0963d94af6.mp4",
-        "icon": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/…auto=format&fit=crop&q=80&h=128&w=128&crop=center"
+        "icon": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/58784f89733dfe25c41f8ba950c6eb4c46507d63-256x256.png?auto=format&fit=crop&q=80&h=128&w=128&crop=center"
       }
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Omen",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/015a083717e9687de8a741cfceddb836775b5f9f-616x822.png?auto=format&fit=fill&q=80&w=567",
     "altcard": "Imagem do Agente Omen de frente",
@@ -396,7 +396,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Jett",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d41286dc9017bf79c0b4d907b7a260c27b0adb69-616x822.png?auto=format&fit=fill&q=80&w=567",
     "altcard": "Imagem da Agente Jett de frente",
@@ -437,7 +437,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Raze",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/40b4b242b68afe30d21e7f95bdcacaebca46ea60-616x822.png?auto=format&fit=fill&q=80&w=567",
     "altcard": "Imagem da Agente Raze de frente",
@@ -478,7 +478,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Skye",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/37ea1466beebb54aad4f16efbad184566cb80368-616x822.png?auto=format&fit=fill&q=80&w=567",
     "altcard": "Imagem da Agente Skye de frente",
@@ -519,7 +519,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Yoru",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/05e1a996814dd10d7179efee327d29a7be00e912-616x822.png?auto=format&fit=fill&q=80&w=567",
     "altcard": "Imagem do Agente Yoru de frente",
@@ -560,7 +560,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Astra",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ba51d43803082941b0274b66413b0acc972546dd-616x822.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem da Agente Astra de frente",
@@ -601,7 +601,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "KAY/O",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/fe52e0efac73ec782b19a54e98a4658b03677407-616x822.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem do Agente KAY/O de frente",
@@ -642,7 +642,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Chamber",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/0f5b668b77499c0051201389d6ac5e7343c9727f-616x822.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem do Agente Chamber de frente",
@@ -682,7 +682,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "name": "Neon",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/14145d7bf9be17afa80c04ee4fbe200076cc1769-616x822.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem da Agente Neon de frente",
@@ -722,7 +722,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "name": "Fade",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e7099cc13a665ed2b556d514e50984393ed49967-616x822.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem da Agente fade de frente",
@@ -762,7 +762,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "Harbor",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1246b5c517f6c8fa660e884a7032c1c54994003e-616x822.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem do Agente Harbor de frente",
@@ -802,7 +802,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "Gekko",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8d88f133f735f6a9077679b1ece754e5624c728e-616x822.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem do Agente Gekko de frente",
@@ -842,7 +842,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "name": "Deadlock",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/477284dfe402a85abcf6b07512bcd6f01c8fe60e-616x822.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem da Agente Deadlock de frente",
@@ -882,7 +882,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 22,
     "name": "Iso",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/2c35cef9c38283f8478d1e808b1c129f371e50b3-616x822.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem da Agente Iso de frente",
@@ -922,7 +922,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 23,
     "name": "Clove",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9f02060077f9d61dbe89555a339e6231006d9b7b-616x822.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem da Agente Clove de frente",
@@ -962,7 +962,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 24,
     "name": "Vyse",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/370e4b820670ef0bac7e685f6e8c5e64d19f1890-587x900.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem da Agente Vyse de frente",
@@ -1002,7 +1002,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 25,
     "name": "Tejo",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3413df9939de606a355c1f88fbfc35f0774c19c9-587x900.jpg?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem do Agente Tejo de frente",
@@ -1042,7 +1042,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 26,
     "name": "Waylay",
     "imageCard": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/11c2b158d932076d3215749a34b7b4209b48ce44-587x900.png?auto=format&fit=fill&q=80&w=566",
     "altcard": "Imagem da Agente Waylay de frente",
