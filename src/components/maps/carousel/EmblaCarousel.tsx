@@ -4,7 +4,12 @@ import useEmblaCarousel from "embla-carousel-react";
 import { Thumb } from "./EmblaCarouselThumbsButton";
 
 type PropType = {
-  images: { id: number; url: string; urlMobile: string }[];
+  images: {
+    id: number;
+    urlDesktop: string;
+    urlMain: string;
+    urlMobile: string;
+  }[];
   options?: EmblaOptionsType;
 };
 
@@ -43,12 +48,12 @@ const EmblaCarousel: React.FC<PropType> = ({ images, options }) => {
         <div className="embla__containerThumb">
           {images.map((image, index) => (
             <div
-              className={`embla__slideThumb flex justify-center min-h-[53rem] bg-[rgb(188,185,180)]!`}
+              className={`embla__slideThumb flex justify-center xl:min-h-[53rem] bg-[rgb(188,185,180)]!`}
               key={image.id}>
               <img
-                src={image.url}
+                src={image.urlMain}
                 alt={`Imagem ${image.id}`}
-                className={`w-full h-auto object-cover ${
+                className={`w-full h-[13.25rem] lg:h-[33.75rem] xl:h-auto object-cover ${
                   index === 0
                     ? "bg-gray-200 flex items-center justify-center lx:h-[53rem]! object-contain xl:w-[60%]"
                     : ""
@@ -76,12 +81,12 @@ const EmblaCarousel: React.FC<PropType> = ({ images, options }) => {
                       <img
                         src={image.urlMobile}
                         alt=""
-                        className="block xl:hidden w-full h-full object-cover"
+                        className="block md:hidden w-full h-full object-cover"
                       />
                       <img
-                        src={image.url}
+                        src={image.urlDesktop}
                         alt=""
-                        className="hidden xl:block w-full h-full object-cover"
+                        className="hidden md:block w-full h-full object-cover"
                       />
                     </>
                   }
