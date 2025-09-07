@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import InternalAgents from "./pages/InternalAgents";
 import Agents from "./pages/Agents";
 import Maps from "./pages/Maps";
+import Arsenal from "./pages/Arsenal";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/agents/" element={<Agents />} />
           <Route path="/agents/:agentId" element={<InternalAgents />} />
           <Route path="/maps" element={<Maps />} />
+          <Route path="/arsenal" element={<Arsenal />} />
         </Route>
       </Routes>
     </BrowserRouter>

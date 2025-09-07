@@ -365,3 +365,8 @@ body {
 .embla-thumbs__slide--selected .embla-thumbs__slide__number {
   color: var(--text-body);
 }
+/*Arsenal start*/
+.bgArsenal {
+  background-image: url("https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/57e5d93a924bf34a0959177c30fc57d1238c5bf8-5120x828.png?auto=format&fit=fill&q=80&w=1351");
+}
+/*Arsenal ends*/
