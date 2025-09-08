@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+  --font-inter: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-tungsten: "Tungsten", sans-serif;
   --font-DINNext: "DINNext", sans-serif;
@@ -370,3 +371,8 @@ body {
   background-image: url("https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/57e5d93a924bf34a0959177c30fc57d1238c5bf8-5120x828.png?auto=format&fit=fill&q=80&w=1351");
 }
 /*Arsenal ends*/
+/*Midia start*/
+.bgMidia {
+  background-image: url("https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/af73819d08ad3bbb80a79dcfb048f847923bda56-5120x1280.png?auto=format&fit=fill&q=80&w=1440");
+}
+/*Midia ends*/

@@ -25,5 +25,54 @@
     "title": "PUMP IT UP // Trailer de Revelação da Skin SplashX",
     "subtitle": "Ah, que delícia o verão! Hora do TCHIBUM no Vavá.",
     "blog": false
+  },
+  {
+    "id": 3,
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e5f34c6bfd54b8eb3ef73cb9750865ce728cb54c-1920x1080.jpg?auto=format&fit=fill&q=80&w=1184",
+    "category": "Esports",
+    "date": "04/09/2025",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": "O Bolão, apoiado pela AWS, chegou! Compita com seus amigos, acompanhe os placares diariamente, escolha os azarões e levante o punho para o céu quando aquela equipe que você desacreditou fizer uma corrida milagrosa e acabar com os seus Palpites Perfeitos."
+      },
+      {
+        "type": "paragraph",
+        "content": "A magia e o caos do Bolão estão de volta, e desta vez em um novo nível e com uma grande novidade: boas-vindas às Facções!"
+      },
+      {
+        "type": "paragraph",
+        "content": "E o que são as Facções? Para o Champions Paris, dez criadores globais estão cada um liderando sua própria Facção. Você pode se juntar a uma Facção, e seus palpites vão contribuir diretamente para o caminho da vitória do seu criador favorito. Se os palpites combinados da comunidade dele forem os mais fortes, o Líder da Facção levará para casa O CINTO, e você compartilhará a honra de se tornar um dos primeiros Campeões de Facção do Bolão!"
+      },
+      {
+        "type": "paragraph",
+        "content": "E as recompensas? Cada Líder de Facção escolheu um item especial dentro do jogo que será concedido aos membros de sua Facção em caso de vitória."
+      },
+      {
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=m_YQgiweIzE&ab_channel=VALORANTChampionsTour"
+      },
+      {
+        "type": "paragraph",
+        "content": "Marque aquele seu amigo fissurado em estatísticas, chame a galera no Discord e arrisque seus palpites nos vencedores para ter a chance de ganhar recompensas."
+      },
+      {
+        "type": "image",
+        "content": "https://cdn.sanity.io/images/dsfx7636/news_live/d4aa8e8245e9e1b02db505a2f63d12885d0a97df-1920x1080.jpg"
+      },
+      {
+        "type": "subtitle",
+        "content": "Datas importantes:"
+      },
+      {
+        "type": "list",
+        "content": {
+          "item1": "Bolão da Fase de Grupos: abre em 4 de setembro às 13:00 BRT; fecha em 12 de setembro às 10:20 BRT, com o início da Fase de Grupos.",
+          "item2": "Bolão das Eliminatórias: abre em 22 de setembro, após o sorteio e a publicação do cronograma (estimado para 22:00 BRT); fecha em 25 de setembro às 10:20 BRT, com o início das Eliminatórias."
+        }
+      }
+    ],
+
+    "blog": false
   }
 ]
