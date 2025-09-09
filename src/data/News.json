@@ -2,6 +2,7 @@
   {
     "id": 0,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/016c62340a3c5b428fc7f835c417e39faf4d4254-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
+    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/016c62340a3c5b428fc7f835c417e39faf4d4254-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
     "category": "Anúncios",
     "date": "05/08/2025",
     "title": "Conheça o Shotcall!",
@@ -11,6 +12,7 @@
   {
     "id": 1,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4930a598d665650cb31f984c00a4198b0df0b4d8-4984x2803.jpg?auto=format&fit=crop&q=80&h=447&w=794&crop=center",
+    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4930a598d665650cb31f984c00a4198b0df0b4d8-4984x2803.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
     "category": "Esports",
     "date": "01/08/2025",
     "title": "O Champions 2026 será em Xangai!",
@@ -19,7 +21,7 @@
   },
   {
     "id": 2,
-    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b40c7b8bcc65d4407ae82d61ee91fd61f20b5bb6-1920x1080.jpg?auto=format&fit=crop&q=80&h=447&w=794&crop=center",
+    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b40c7b8bcc65d4407ae82d61ee91fd61f20b5bb6-1920x1080.jpg?auto=format&fit=crop&q=80&h=447&w=794&crop=center",
     "category": "atualizações do jogo",
     "date": "29/07/2025",
     "title": "PUMP IT UP // Trailer de Revelação da Skin SplashX",
@@ -28,9 +30,13 @@
   },
   {
     "id": 3,
-    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e5f34c6bfd54b8eb3ef73cb9750865ce728cb54c-1920x1080.jpg?auto=format&fit=fill&q=80&w=1184",
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c6f2ab99bea658c1a802b63c38d7bb0d433bcece-1920x1080.jpg?auto=format&fit=max&w=1920",
+    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c6f2ab99bea658c1a802b63c38d7bb0d433bcece-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
+    "title": "Champions Paris: Bolão apoiado pela AWS",
+    "subtitle": "O Bolão começa em 4 de setembro no site e no cliente. Prepare-se!",
     "category": "Esports",
-    "date": "04/09/2025",
+    "date": "4 de setembro de 2025",
+    "type": "bgBlack",
     "content": [
       {
         "type": "paragraph",
@@ -66,13 +72,565 @@
       },
       {
         "type": "list",
+        "content": [
+          "Bolão da Fase de Grupos: abre em 4 de setembro às 13:00 BRT; fecha em 12 de setembro às 10:20 BRT, com o início da Fase de Grupos.",
+          "Bolão das Eliminatórias: abre em 22 de setembro, após o sorteio e a publicação do cronograma (estimado para 22:00 BRT); fecha em 25 de setembro às 10:20 BRT, com o início das Eliminatórias."
+        ]
+      },
+      {
+        "type": "subtitle",
+        "content": "Recompensas do Bolão"
+      },
+      {
+        "type": "list",
+        "content": [
+          "Spray Tejo ¡Eureka! por dar pelo menos 1 palpite, seja na Fase de Grupos ou nas Eliminatórias.",
+          "Pingente G.O.A.T. para quem ficar entre os 50% melhores no final do evento",
+          "Pingente G.O.A.T. dourado para quem ficar entre os 20% melhores no final do evento",
+          "Título '100%' para quem acertar todos os palpites no final do evento"
+        ]
+      },
+      {
+        "type": "image",
+        "content": "https://cdn.sanity.io/images/dsfx7636/news_live/d0262209a5e23b3f283aeae11b9793ea043618ad-1920x1080.jpg"
+      }
+    ],
+
+    "blog": false
+  },
+  {
+    "id": 4,
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e5f34c6bfd54b8eb3ef73cb9750865ce728cb54c-1920x1080.jpg?auto=format&fit=fill&q=80&w=1184",
+    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e5f34c6bfd54b8eb3ef73cb9750865ce728cb54c-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
+    "title": "Tudo o que você precisa saber: Champions Paris",
+    "subtitle": "Partidas, formato, datas e muito mais!",
+    "category": "Esports",
+    "date": "04/09/2025",
+    "type": "blur",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": "VALORANT Champions 2025 finalmente chega a Paris!"
+      },
+      {
+        "type": "paragraph",
+        "content": "Boas-vindas ao clímax do VALORANT Champions Tour 2025! O maior palco do VALORANT está pronto, as luzes de Paris estão brilhando e a contagem regressiva começou."
+      },
+      {
+        "type": "paragraph",
+        "content": "Após uma temporada de rivalidades históricas, reviravoltas épicas e momentos inesquecíveis, as melhores equipes do mundo agora se reúnem no Champions Paris."
+      },
+      {
+        "type": "subtitleUppercase",
+        "content": "A JORNADA RUMO AO CHAMPIONS!"
+      },
+      {
+        "type": "paragraph",
+        "content": "Das ligas internacionais aos eventos globais, só as melhores equipes se classificaram para o palco supremo do VALORANT Champions Tour."
+      },
+      {
+        "type": "list",
+        "content": [
+          "Oito equipes se classificaram diretamente para o Champions ao terminarem entre as duas melhores das suas respectivas ligas internacionais.",
+          "Outras oito equipes conquistaram a vaga acumulando Pontos de Campeonato ao longo da temporada."
+        ]
+      },
+      {
+        "type": "subtitleUppercase",
+        "content": "EQUIPES PARTICIPANTES"
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f0d3c40a79da76a72551f6fed255d40885cbc8f0-1920x1080.jpg"
+      },
+      {
+        "type": "table",
         "content": {
-          "item1": "Bolão da Fase de Grupos: abre em 4 de setembro às 13:00 BRT; fecha em 12 de setembro às 10:20 BRT, com o início da Fase de Grupos.",
-          "item2": "Bolão das Eliminatórias: abre em 22 de setembro, após o sorteio e a publicação do cronograma (estimado para 22:00 BRT); fecha em 25 de setembro às 10:20 BRT, com o início das Eliminatórias."
+          "titles": {
+            "th1": "VCT Americas",
+            "th2": "VCT Pacific",
+            "th3": "VCT EMEA",
+            "th4": "VCT CN"
+          },
+          "content": {
+            "row1": {
+              "item1": "SEN",
+              "item2": "PRX",
+              "item3": "FNATIC",
+              "item4": "BLG"
+            },
+            "row2": {
+              "item1": "G2",
+              "item2": "T1",
+              "item3": "Team Liquid",
+              "item4": "EDG"
+            },
+            "row3": {
+              "item1": "MIBR",
+              "item2": "RRQ",
+              "item3": "GIANTX",
+              "item4": "XLG"
+            },
+            "row4": {
+              "item1": "NRG",
+              "item2": "DRX",
+              "item3": "Team Heretics",
+              "item4": "DRG"
+            }
+          }
+        }
+      },
+      {
+        "type": "subtitleUppercase",
+        "content": "FORMATO DO TORNEIO"
+      },
+      {
+        "type": "paragraph",
+        "content": "De 12 de setembro a 5 de outubro, a jornada continua pela Fase de Grupos e pelas Playoffs antes da conclusão épica na Grande Final, com a coroação do próximo Campeão Mundial."
+      },
+      {
+        "type": "paragraph",
+        "content": "Fase de Grupos (de 12 a 22 de setembro)"
+      },
+      {
+        "type": "paragraph",
+        "content": "A Fase de Grupos contará com 16 equipes divididas em quatro grupos, cada um recebendo uma equipe de cada uma das quatro ligas internacionais do VALORANT. Nesta etapa, as equipes disputarão em chave de eliminação dupla, com duas equipes de cada grupo avançando."
+      },
+      {
+        "type": "paragraph",
+        "content": "Eliminatórias (de 25 de setembro a 5 de outubro)"
+      },
+      {
+        "type": "paragraph",
+        "content": "As 8 equipes classificadas serão sorteadas em uma chave de eliminação dupla, com equipes do mesmo grupo posicionadas em lados opostos da chave. As partidas serão disputadas em séries melhor de 3, exceto as duas últimas, que serão melhor de 5. A última equipe restante será coroada como Campeã Mundial de VALORANT!"
+      },
+      {
+        "type": "subtitleUppercase",
+        "content": "CHAVES DO TORNEIO"
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b06575aaea681a9f3664fe31528964d37038f1c5-1920x1080.jpg"
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c081958324837778e080812e820ccf25bcdd0092-1920x1080.jpg"
+      },
+      {
+        "type": "subtitleUppercase",
+        "content": "CRONOGRAMA"
+      },
+      {
+        "type": "paragraph",
+        "content": "Calendário do evento ao vivo:"
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5d75b735e731fff50368981c41e7d8a521014862-1920x1080.jpg"
+      },
+      {
+        "type": "subtitle",
+        "content": "Bolão e esquadrões apoiados pela AWS"
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d4aa8e8245e9e1b02db505a2f63d12885d0a97df-1920x1080.jpg"
+      },
+      {
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=m_YQgiweIzE&ab_channel=VALORANTChampionsTour"
+      },
+      {
+        "type": "paragraph",
+        "content": "O Bolão está de volta e agora repaginado: faça suas previsões no jogo ou em valorantesports.com, ganhe recompensas pelos palpites corretos e veja como você se classifica em relação a amigos e criadores no placar."
+      },
+      {
+        "type": "paragraph",
+        "content": "Marque no calendário:"
+      },
+      {
+        "type": "list",
+        "content": [
+          "Palpites da Fase de Grupos: de 4 a 12 de setembro",
+          "Palpites das Eliminatórias: de 22 a 25 de setembro"
+        ]
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d0262209a5e23b3f283aeae11b9793ea043618ad-1920x1080.jpg"
+      },
+      {
+        "type": "paragraph",
+        "content": "Depois de se inscrever, confira os Esquadrões da Comunidade, nossas equipes lideradas por celebridades, em que o desempenho do seu Bolão alimenta um placar compartilhado. Cada esquadrão é capitaneado por um dos nossos cotransmissores no local e, com os palpites certos, você ajudará sua equipe a subir no ranking! Escolha seu esquadrão, represente a sua equipe e participe da batalha até o Champions Paris!"
+      },
+      {
+        "type": "subtitle",
+        "content": "Coleção Champions 2025"
+      },
+      {
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=4ay3XUAdYrk&t=1s&ab_channel=VALORANT%2F%2FBrasil"
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e3c8a95dd17af80194b35da02b86f539ed4af0f2-1920x1080.jpg"
+      },
+      {
+        "type": "subtitle",
+        "content": "MVP do Torneio"
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/480423a006815ec4eac249cfe4579c6ef4921327-1366x2048.jpg"
+      },
+      {
+        "type": "paragraph",
+        "content": "Em 2024, coroamos o nosso primeiro MVP do Champions em Seul. Agora, em Paris, um novo nome será escrito na história do VCT. Uma nova estrela surgirá, uma nova lenda nascerá e um(a) jogador(a) se destacará entre os 60 melhores competidores do mundo."
+      },
+      {
+        "type": "paragraph",
+        "content": "Fique de olho após a Grande Final para ver quem levará para casa a honra e a exclusiva pulseira de MVP, criada pelos nossos parceiros da Good Art."
+      },
+      {
+        "type": "subtitleUppercase",
+        "content": "DROPS DO CHAMPIONS PARIS"
+      },
+      {
+        "type": "paragraph",
+        "content": "Assista às partidas ao vivo durante o Champions Paris para ganhar Drops exclusivos!"
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/579d3455a80a5b79cffec3c2871290c4476654a6-1920x1080.jpg"
+      },
+      {
+        "type": "list",
+        "content": [
+          "Título: OUI CHEF",
+          "Assista a uma partida ao vivo entre 12 e 29 de setembro",
+          "Spray: Breadshot",
+          "Assista a uma partida ao vivo entre 3 e 4 de outubro",
+          "Card de Jogador: No Zona Fly: Paris",
+          "Assista a uma partida ao vivo durante a Grande Final, em 5 de outubro"
+        ]
+      }
+    ],
+
+    "blog": false
+  },
+  {
+    "id": 5,
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/74faecaf24ae2aa426cbe68cee79261fefbfce7a-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
+    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/74faecaf24ae2aa426cbe68cee79261fefbfce7a-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
+    "title": "Formato do VALORANT Champions Paris",
+    "subtitle": "Dezesseis equipes se enfrentam no maior torneio do ano: o VALORANT Champions Paris.",
+    "category": "Esports",
+    "date": "04/09/2025",
+    "type": "video",
+    "content": [
+      {
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=m_YQgiweIzE&ab_channel=VALORANTChampionsTour"
+      }
+    ],
+
+    "blog": false
+  },
+  {
+    "id": 6,
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e3f7bdeec256c91fe170a091d1888bad60e5ff76-1920x1080.jpg?auto=format&fit=fill&q=80&w=1184",
+    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e3f7bdeec256c91fe170a091d1888bad60e5ff76-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
+    "title": "Notas da Atualização 11.05 do VALORANT",
+    "subtitle": "Pequenos balanceamentos conforme o Champions Paris se aproxima!",
+    "category": "Atualizações do jogo",
+    "date": "02/09/2025",
+    "type": "blur",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": "Tudo beleza? Aqui é a JOY! A Atualização 11.05 será a atualização do Champions, então vamos maneirar nas mudanças para que nossos jogadores profissionais possam se preparar o máximo possível. Além disso, a implementação da atualização será adiada em um dia devido ao feriado nos EUA. Trouxemos essas Notas o quanto antes para informar a comunidade do que está por vir, mas não se esqueça: a atualização será implementada um dia depois do esperado (se normalmente é na terça, será na quarta; se normalmente é na quarta, será na quinta.)"
+      },
+      {
+        "type": "paragraph",
+        "content": "Resumo"
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Agentes",
+          "content": [
+            "Trouxemos ajustes de efeitos visuais para o Harbor para melhorar a visualização.",
+            "Trouxemos ajustes de efeitos visuais para o Harbor para melhorar a visualização."
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Esports",
+          "content": [
+            "O Bolão está de volta para o Champions! E dessa vez, temos novas Facções!"
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Disputa",
+          "content": [
+            "Quem gosta de abusar da Recriação, se liga! Penalidades mais severas estão chegando."
+          ]
+        }
+      },
+      {
+        "type": "subtitleUppercase",
+        "content": "TODAS AS PLATAFORMAS"
+      },
+      {
+        "type": "subtitle",
+        "content": "ATUALIZAÇÕES DE AGENTES"
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Harbor",
+          "content": [
+            "Efeitos visuais atualizados para melhor clareza. Sossega o facho aí! Essas ainda não são as grandes atualizações que temos comentado. Falaremos mais sobre isso no Champions, fique de olho. Por ora, vamos apenas melhorar a perceptibilidade visual para as habilidades do Agente."
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Acerto de Contas",
+          "content": [
+            "Ruído visual reduzido. Indicador no chão atualizado para mostrar melhor o alcance do impacto. O efeito amarelo agora fica mais perto do Agente sendo atingido, assim será mais fácil conferir se alguém está se escondendo antes da Concussão. Efeito de água no chão reduzido para maior clareza."
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Enseada",
+          "content": [
+            "Efeitos visuais da Vida do Escudo melhorados. O estado da Vida agora fica mais claro na animação da água."
+          ]
+        }
+      },
+
+      {
+        "type": "list",
+        "content": [
+          "Chegou a hora! O Bolão está de volta bem a tempo do Champions Paris! A partir de 4 de setembro, você terá acesso à Fase de Grupos no cliente e na web. Ganhe pontos se adivinhar quais equipes avançarão (e ganhe pontos extras se acertar a colocação!). Você poderá de obter recompensas só de participar.",
+          "Este ano, vamos elevar o patamar mais uma vez. Junte-se à Facção do seu criador de conteúdo preferido! Mas, atenção, só é possível fazer isso uma vez. Cada grupo oferece uma recompensa única no jogo.",
+          "Se você se sair bem, os pontos que ganhar na Fase de Grupos e nas Eliminatórias vão contribuir para a pontuação do líder da Facção. Vamos ver quem vai ganhar!"
+        ]
+      },
+      {
+        "type": "subtitleUppercase",
+        "content": "ATUALIZAÇÕES DE COMPORTAMENTO DOS JOGADORES"
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Ajustamos nosso sistema de comportamento para lidar melhor com abuso de Recriação e abusos de mecânica.",
+          "content": [
+            "Ou seja, penalidades para quem fica ocioso ou sai da fila com frequência. Isso afetará apenas quem abusa com certa regularidade dos nossos sistemas. Não vamos punir injustamente jogadores que estão apenas tentando jogar."
+          ]
+        }
+      },
+      {
+        "type": "subtitleUppercase",
+        "content": "CORREÇÕES DE BUGS"
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Geral",
+          "content": [
+            "Melhoramos a tecnologia de backend para habilidades de detecção (ex.: Espreitadores, Wingman, Dizzy, etc.) para que seja mais fácil detectar oponentes dentro do campo de visão.",
+            "Lógica de limpeza sonora adicionada para garantir que efeitos sonoros inesperados não continuem sendo reproduzido entre rodadas."
+          ]
+        }
+      },
+      {
+        "type": "subtitleUppercase",
+        "content": "Agentes"
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Astra",
+          "content": [
+            "Corrigimos um erro que mostrava rastros de balas atravessando a Divisa Cósmica, da Astra. Essa correção trouxe de volta um bug sonoro ao atravessar a parede da Astra."
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Chamber",
+          "content": [
+            "O ícone global da Marca Registrada, do Chamber, voltou a mudar de cor quando você mirar nela."
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Clove",
+          "content": [
+            "Corrigimos um erro que impedia a reprodução do áudio de conjuração de Revitalizar, de Clove, para inimigos."
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Deadlock",
+          "content": [
+            "Corrigimos um erro que dificultava o posicionamento do Sensor Sônico, da Deadlock, e do Fio-Armadilha, do Cypher.",
+            "Corrigimos um erro no Modo Espectador com a surdez da Aniquilação, da Deadlock, que deixava o processamento de áudio não tão claro como deveria depois que um jogador sendo observado sofresse o impacto da habilidade.",
+            "Corrigimos um erro que reproduzia o áudio da Aniquilação, da Deadlock, para o Yoru verdadeiro ao usar a habilidade no clone de Distração."
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Gekko",
+          "content": [
+            "Corrigimos um bug que reproduzia a fala 'Spike no chão' se o Wingman fosse destruído logo depois de plantá-la."
+          ]
+        }
+      },
+      {
+        "type": "list",
+        "content": {
+          "dad": "Jett",
+          "content": [
+            "Corrigimos um bug que mantinha o áudio da Brisa de Impulso, da Jett, entre rodadas."
+          ]
         }
       }
     ],
 
     "blog": false
+  },
+  {
+    "id": 7,
+    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5de66c6be764323f0c75e63d421786b38bcf0594-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
+    "category": "atualizações do jogo",
+    "date": "30/08/2025",
+    "title": "Trailer de Revelação de Skin do Champions 2025",
+    "subtitle": "Estilize sua coleção em 24 quilates com a Vandal, o Canivete-Borboleta e acessórios do Champions 2025.",
+    "type": "video",
+    "content": [
+      {
+        "type": "video",
+        "content": "https://playvalorant.com/pt-br/news/esports/everything-you-need-to-know-champions-paris/"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c6f2ab99bea658c1a802b63c38d7bb0d433bcece-1920x1080.jpg?auto=format&fit=max&w=1920",
+    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4a7e6534eb3ccd96fb6cbd2cda4b1f6f67e694ec-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
+    "title": "Apresentação da Coleção Champions 2025!",
+    "subtitle": "Apoie suas equipes de Esports favoritas com a Coleção Champions!",
+    "category": "Esports",
+    "date": "30/08/2025",
+    "type": "bgBlack",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": "A Coleção VALORANT Champions 2025 celebra o desempenho máximo e o estilo ousado. Inspirada na busca incansável por ser o melhor do mundo, esta coleção celebra cada momento decisivo e especial que define Champions."
+      },
+      {
+        "type": "paragraph",
+        "content": "Assim como nos anos anteriores, 50% da receita líquida da Coleção Champions 2025 será compartilhada com as equipes do VCT, dando aos fãs a chance de apoiar o ecossistema ao equipar a coleção mais ousada até agora."
+      },
+      {
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=4ay3XUAdYrk&ab_channel=VALORANT%2F%2FBrasil"
+      },
+      {
+        "type": "subtitleH2",
+        "content": "O que inclui a coleção Champions 2025?"
+      },
+      {
+        "type": "paragraph",
+        "content": "A coleção deste ano apresenta novas maneiras de brilhar no palco principal e em casa nas suas partidas de VALORANT:"
+      },
+      {
+        "type": "subtitle",
+        "content": "Vandal Champions 2025"
+      },
+      {
+        "type": "list",
+        "content": [
+          "Aura do Campeão: um contorno vermelho brilhante de 'fogo' que brilha quando você é o melhor em eliminações do jogo. O brilho muda para dourado sempre que você abate alguém. ",
+          "Sequência irada: após cada abate, a arma inteira vira uma forma dourada completa por um período de tempo. Obter outra eliminação mantém a forma dourada ativa.",
+          "Finalizador personalizado: um novo momento cinematográfico que toca o hino de 2025 e exibe um contador de rodadas, que mostra quantas você ainda precisa para fechar o jogo com uma vitória. Silhuetas dos agentes da sua equipe aparecem no fundo do Finalizador.",
+          "Finalizador “Pinte o Mundo”: após o acionamento do finalizador, você e seus aliados com o Vandal do Champions 2025 equipado podem deixar marcas VCT douradas no mapa onde quer que vocês atirem."
+        ]
+      },
+      {
+        "type": "list",
+        "dad": "Outros recursos:",
+        "content": [
+          "O contador de abates rastreia suas eliminações durante a partida",
+          "Durante a animação de inspeção, o cronômetro de contagem regressiva na arma faz a contagem regressiva até a data da Grande Final do Champions 2025.",
+          "Áudio de disparo personalizado e efeitos visuais com clarão do cano no formato do logotipo do VCT",
+          "Música do Anthem toca durante a animação de inspeção de armas",
+          "Visuais e sons de Estandarte de abate personalizados"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "content": "Canivete-Borboleta Champions 2025"
+      },
+      {
+        "type": "list",
+        "content": [
+          "Aura do Campeão: um contorno vermelho brilhante de 'fogo' que brilha quando você é o melhor em eliminações do jogo. O brilho muda para dourado por alguns segundos sempre que você abate alguém com uma arma ou habilidade.",
+          "Sequência irada mecânica: após cada abate, a arma inteira vira uma forma dourada completa por um período de tempo. Obter outra eliminação mantém a forma dourada ativa.",
+          "Conjunto de animação exclusivo: nova animação de inspeção, além de efeitos visuais e efeitos sonoros personalizados em todas as outras animações."
+        ]
+      },
+      {
+        "type": "subtitle",
+        "content": "Acessórios"
+      },
+      {
+        "type": "list",
+        "content": [
+          "Flex: projetado com base no troféu dos Campeões. Toca o  Anthem de 2025 e mostra as rodadas necessárias para vencer quando inspecionado. ",
+          "Chaveiro de Arma: design ousado inspirado no VCT em dourado e preto.",
+          "Card de Jogador: uma arte colecionável relacionada ao tema Champions 2025.",
+          "Spray: adicione um toque especial a cada partida com um spray dourado comemorativo."
+        ]
+      },
+      {
+        "type": "subtitleH2",
+        "content": "Apoiar as equipes é estimular o crescimento"
+      },
+      {
+        "type": "paragraph",
+        "content": "A Coleção Champions sempre teve como objetivo construir o futuro dos Esports de VALORANT. Com este pacote, os fãs contribuem diretamente para o sucesso de todas as equipes do VCT. Em 2024, os pacotes de Esports arrecadaram mais de US$ 40 milhões para as equipes parceiras, e o Champions 2025 continua esse legado com nosso pacote mais ambicioso e rico em recursos até agora."
+      },
+      {
+        "type": "subtitleH2",
+        "content": "Quando a Coleção Champions 2025 vai estar disponível?"
+      },
+      {
+        "type": "paragraph",
+        "content": "A Coleção Champions 2025 será lançada globalmente em 4 de setembro de 2025 e estará disponível na loja do jogo por tempo limitado até o Champions."
+      },
+      {
+        "type": "paragraph",
+        "content": "Não perca a chance de ter um pedaço da história de VALORANT."
+      }
+    ]
   }
 ]
