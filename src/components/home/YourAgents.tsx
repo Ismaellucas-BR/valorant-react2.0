@@ -24,7 +24,8 @@ export default function YourAgents() {
           </span>
           <ButtonFullWidth
             color="bg-azulmarinho mt-3 md:w-2/4 xl:mt-10"
-            link="#"
+            link="/agents"
+            target=""
             content="VER TODOS OS AGENTES"
           />
         </div>

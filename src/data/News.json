@@ -1,35 +1,6 @@
 [
   {
     "id": 0,
-    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/016c62340a3c5b428fc7f835c417e39faf4d4254-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
-    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/016c62340a3c5b428fc7f835c417e39faf4d4254-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
-    "category": "Anúncios",
-    "date": "05/08/2025",
-    "title": "Conheça o Shotcall!",
-    "subtitle": "Assista, preveja e ganhe!",
-    "blog": true
-  },
-  {
-    "id": 1,
-    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4930a598d665650cb31f984c00a4198b0df0b4d8-4984x2803.jpg?auto=format&fit=crop&q=80&h=447&w=794&crop=center",
-    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4930a598d665650cb31f984c00a4198b0df0b4d8-4984x2803.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
-    "category": "Esports",
-    "date": "01/08/2025",
-    "title": "O Champions 2026 será em Xangai!",
-    "subtitle": "Saiba mais sobre o Champions do ano que vem.",
-    "blog": true
-  },
-  {
-    "id": 2,
-    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b40c7b8bcc65d4407ae82d61ee91fd61f20b5bb6-1920x1080.jpg?auto=format&fit=crop&q=80&h=447&w=794&crop=center",
-    "category": "atualizações do jogo",
-    "date": "29/07/2025",
-    "title": "PUMP IT UP // Trailer de Revelação da Skin SplashX",
-    "subtitle": "Ah, que delícia o verão! Hora do TCHIBUM no Vavá.",
-    "blog": false
-  },
-  {
-    "id": 3,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c6f2ab99bea658c1a802b63c38d7bb0d433bcece-1920x1080.jpg?auto=format&fit=max&w=1920",
     "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c6f2ab99bea658c1a802b63c38d7bb0d433bcece-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
     "title": "Champions Paris: Bolão apoiado pela AWS",
@@ -99,7 +70,7 @@
     "blog": false
   },
   {
-    "id": 4,
+    "id": 1,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e5f34c6bfd54b8eb3ef73cb9750865ce728cb54c-1920x1080.jpg?auto=format&fit=fill&q=80&w=1184",
     "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e5f34c6bfd54b8eb3ef73cb9750865ce728cb54c-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
     "title": "Tudo o que você precisa saber: Champions Paris",
@@ -319,7 +290,7 @@
     "blog": false
   },
   {
-    "id": 5,
+    "id": 2,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/74faecaf24ae2aa426cbe68cee79261fefbfce7a-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
     "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/74faecaf24ae2aa426cbe68cee79261fefbfce7a-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
     "title": "Formato do VALORANT Champions Paris",
@@ -337,7 +308,7 @@
     "blog": false
   },
   {
-    "id": 6,
+    "id": 3,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e3f7bdeec256c91fe170a091d1888bad60e5ff76-1920x1080.jpg?auto=format&fit=fill&q=80&w=1184",
     "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e3f7bdeec256c91fe170a091d1888bad60e5ff76-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
     "title": "Notas da Atualização 11.05 do VALORANT",
@@ -518,7 +489,7 @@
     "blog": false
   },
   {
-    "id": 7,
+    "id": 4,
     "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5de66c6be764323f0c75e63d421786b38bcf0594-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
     "category": "atualizações do jogo",
     "date": "30/08/2025",
@@ -533,7 +504,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 5,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c6f2ab99bea658c1a802b63c38d7bb0d433bcece-1920x1080.jpg?auto=format&fit=max&w=1920",
     "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4a7e6534eb3ccd96fb6cbd2cda4b1f6f67e694ec-1920x1080.jpg?auto=format&fit=crop&q=80&h=223&w=397&crop=center",
     "title": "Apresentação da Coleção Champions 2025!",
@@ -632,5 +603,160 @@
         "content": "Não perca a chance de ter um pedaço da história de VALORANT."
       }
     ]
+  },
+  {
+    "id": 6,
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/308741607e81c8889a0e973958bc8ad60f32dec1-1920x1080.jpg?auto=format&fit=fill&q=80&w=1280",
+    "thumb": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/308741607e81c8889a0e973958bc8ad60f32dec1-1920x1080.jpg?auto=format&fit=fill&q=80&w=1280",
+    "title": "Guia para Iniciantes",
+    "subtitle": "Quer ficar craque no VALORANT? Comece aqui!",
+    "category": "Anúncios",
+    "date": "01/06/2020",
+    "type": "blur",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": "Boas-vindas ao Guia para Iniciantes do VALORANT! Não importa se você começou agora ou se só precisa refrescar a memória, estamos aqui para ajudar com tudo que você precisa saber sobre o jogo. Esta página inclui diversos guias em vídeo criados por alguns dos mais respeitados e amados jogadores da nossa comunidade. E eles estão demais, por isso, vale a pena conferir! "
+      },
+      {
+        "type": "paragraph",
+        "content": "Precisa de um resumo? O vídeo do Tarik traz um bom apanhado do básico que você precisa saber antes de começar a jogar VALORANT."
+      },
+      {
+        "type": "video",
+        "content": "https://youtu.be/ywl5a7Izh8o"
+      },
+
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7c1e3955ef6238aa6a7276598c9528e69c216802-1920x1080.jpg"
+      },
+      {
+        "type": "subtitle",
+        "content": "AGENTES"
+      },
+      {
+        "type": "paragraph",
+        "content": "Antes de começar a partida, você passa pela Seleção de Agente. Ali, você vai encontrar 24 opções de Agentes divididos em 4 grupos de acordo com as funções. Você vai perceber que nem todos os Agentes vão estar habilitados na sua nova conta. Quanto mais você jogar, mais Agentes desbloqueia!"
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/5106d78bdfc0bb9e4de639c471daf5d5df73c7f5-1920x1080.jpg"
+      },
+      {
+        "type": "paragraph",
+        "content": "Cada Agente tem um conjunto único de habilidades para serem utilizadas em conjunto com foco na vitória. Não é obrigatório ter todas as funções na sua equipe, mas vocês vão perceber ao longo da partida que pode ser vantajoso contar com uma variedade maior de Agentes. Por exemplo, pode ser mais fácil acessar um ponto do mapa se tiver um Agente Controlador que lance uma fumaça na linha de visão dos inimigos!"
+      },
+      {
+        "type": "subtitle",
+        "content": "RODADAS E ECONOMIA"
+      },
+      {
+        "type": "paragraph",
+        "content": "Depois que todos selecionarem seus Agentes, a equipe é enviada para um mapa aleatório, e a primeira rodada tem início."
+      },
+      {
+        "type": "paragraph",
+        "content": "Você começa no Ataque ou na Defesa e troca de lado após 12 rodadas. Antes do início de cada rodada, você tem tempo para comprar itens e habilidades para se preparar. Seu Agente e estilo de jogo vão decidir o que deve comprar com base na quantidade de créditos que você tiver. Você prefere investir em uma habilidade que cure a equipe ou prefere uma arma mais forte e capaz de abater os inimigos?"
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8fb45dcb7fb1570239a7516cb03d175a08e3744e-1920x1080.jpg"
+      },
+      {
+        "type": "paragraph",
+        "content": "Se estiver do lado atacante, você pode plantar ou detonar a Spike. Se estiver do lado defensor, você pode desarmar a Spike após a equipe inimiga plantar. Seja como for, eliminar os inimigos vai tornar o seu trabalho muito mais fácil."
+      },
+      {
+        "type": "paragraph",
+        "content": "Para mais informações, confira o vídeo do iiTzTimmy com explicações sobre as rodadas e a economia para cada equipe."
+      },
+      {
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=WA989n0Ccf4&embeds_referring_euri=https%3A%2F%2Fplayvalorant.com%2Fpt-br%2Fnews%2Fannouncements%2Fbeginners-guide%2F&source_ve_path=MzY4NDIsMjg2NjY"
+      },
+      {
+        "type": "subtitle",
+        "content": "ARMAS"
+      },
+      {
+        "type": "paragraph",
+        "content": "No VALORANT, existe uma arma para cada situação. Você pode acessar os detalhes de cada arma na nossa página de Arsenal. "
+      },
+      {
+        "type": "paragraph",
+        "content": "Se bater a dúvida, tente escolher com base no tipo e veja se combina com seu estilo de jogo, sua experiência e a estratégia da sua equipe. Como você nem sempre vai poder comprar a arma que quer, teste diferentes armas até descobrir qual você prefere para cada ocasião."
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e51c3adaa303b426ce2d1f8e0b04601b54768708-1920x1080.jpg"
+      },
+      {
+        "type": "subtitle",
+        "content": "MAPAS"
+      },
+      {
+        "type": "paragraph",
+        "content": "Hoje existem 11 mapas no VALORANT. Confira aqui. Cada mapa traz uma forma diferente de colocar seu estilo de jogo em prática. Demonstre criatividade e habilidade implementando diferentes estratégias com base no mapa em que estiver jogando. Depois de estudar as particularidades de cada mapa, vai ficar fácil adivinhar a direção dos inimigos e marcar os ângulos certos. Não se esqueça de conferir todos os cantinhos!"
+      },
+      {
+        "type": "paragraph",
+        "content": "Você pode preferir jogar com certos Agentes e mapas dependendo do seu estilo de jogo. Alguns mapas apresentam plataformas elevadas que fazem com que um Agente capaz de saltar ou se teleportar seja mais interessante. Aqui, Mixwell fala em detalhes sobre seleção de Agentes com kits específicos para determinados mapas."
+      },
+      {
+        "type": "video",
+        "content": "https://youtu.be/owDx7MXwBwI"
+      },
+      {
+        "type": "subtitle",
+        "content": "DICAS"
+      },
+      {
+        "type": "paragraph",
+        "content": "Agora que sabe o básico, aqui vão alguns detalhes que você deve ter em mente para executar seu plano de vitória. Durante cada rodada, se pergunte: 'É melhor andar, para que meus inimigos não me ouçam, ou será que eu posso correr?' 'Será que eu posso usar uma habilidade para atingir meu objetivo?' E quando avistar um inimigo, mantenha a calma! Evite se mexer antes de atirar para manter a precisão."
+      },
+      {
+        "type": "image",
+        "content": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a31d641891c861b6d68271d0e34a9a26374d65d7-1920x1080.jpg"
+      },
+      {
+        "type": "subtitle",
+        "content": "COMUNICAÇÃO"
+      },
+      {
+        "type": "paragraph",
+        "content": "Todo mundo sabe que comunicação é fundamental, e isso também se aplica ao VALORANT. Seja para dar informações à sua equipe sobre a posição de um inimigo ou celebrar um 1x3 insano de um colega de equipe, a comunicação deve ser sempre prioridade. Não quer usar o chat de voz? Use o ping para marcar a localização de um inimigo e use as falas do jogo do seu Agente para se comunicar com a equipe."
+      },
+      {
+        "type": "paragraph",
+        "content": "Ainda não se convenceu? Aqui vai um vídeo do TenZ explicando direitinho a importância da comunicação no VALORANT."
+      },
+      {
+        "type": "subtitle",
+        "content": "CONFIGURAÇÕES"
+      },
+      {
+        "type": "paragraph",
+        "content": "Não basta só focar na partida. Confira também as configurações para garantir que estejam de acordo com o seu estilo de jogo. Configurações podem parecer complicadas e intimidadoras, por isso, aqui vão algumas dicas de configuração da Kyedae."
+      },
+      {
+        "type": "video",
+        "content": "https://youtu.be/b5rLc5Z474I"
+      },
+      {
+        "type": "paragraph",
+        "content": "O fato de o VALORANT ser um jogo altamente competitivo não faz com que ele seja um jogo sério sempre. Se quiser fazer uma pausa do modo Competitivo ou só se divertir com os amigos, teste outros modos de jogo, como o Sem Classificação e o Frenético. Uma derrota não é tão ruim assim quando você não perde pontos de CR (Classificação Ranqueada)."
+      },
+      {
+        "type": "paragraph",
+        "content": "Não acredita na gente? Confira o vídeo da Starsmitten sobre os modos de jogo que demonstram o quanto o VALORANT é divertido (e caótico!). E vai um alerta de volume alto."
+      },
+      {
+        "type": "video",
+        "content": "https://youtu.be/Rmfke9D-mWM"
+      }
+    ],
+
+    "blog": false
   }
 ]

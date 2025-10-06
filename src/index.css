@@ -174,11 +174,50 @@ body {
 }
 .embla__viewport {
   overflow: hidden;
+  width: 100%;
 }
+
+@media (min-width: 768px) {
+  /* tablet */
+  .embla__viewport {
+    padding-inline: 1.5rem; /* mais espaço nas laterais */
+  }
+}
+@media (min-width: 825px) {
+  /* tablet */
+  .embla__viewport {
+    padding-inline: 1.8rem; /* mais espaço nas laterais */
+  }
+}
+@media (min-width: 929px) {
+  /* tablet */
+  .embla__viewport {
+    padding-inline: 2rem; /* mais espaço nas laterais */
+  }
+}
+@media (min-width: 989px) {
+  /* tablet */
+  .embla__viewport {
+    padding-inline: 2.2rem; /* mais espaço nas laterais */
+  }
+}
+@media (min-width: 1050px) {
+  /* desktop */
+  .embla__viewport {
+    padding-inline: 2.5rem;
+  }
+}
+@media (min-width: 1128px) {
+  /* desktop */
+  .embla__viewport {
+    padding-inline: 2.8rem;
+  }
+}
+
 .embla__container {
   display: flex;
   touch-action: pan-y pinch-zoom;
-  margin-left: calc(var(--slide-spacing) * -1);
+  margin-left: 0;
 }
 
 .embla__slide__number {
@@ -376,3 +415,11 @@ body {
   background-image: url("https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/af73819d08ad3bbb80a79dcfb048f847923bda56-5120x1280.png?auto=format&fit=fill&q=80&w=1440");
 }
 /*Midia ends*/
+/*Header start*/
+.nav-effect {
+  @apply relative p-2 bg-transparent rounded-md cursor-pointer hover:bg-[rgba(128,128,128,.3)] hover:text-light-red;
+}
+.span-effect {
+  @apply after:content-[''] after:block after:w-full after:h-[3px] after:bg-red-500 after:absolute after:bottom-0 after:left-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 text-lg;
+}
+/*Header end*/

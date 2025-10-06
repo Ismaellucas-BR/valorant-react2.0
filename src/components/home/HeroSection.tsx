@@ -29,7 +29,7 @@ export default function HeroSection() {
             habilidades únicas
           </h1>
           <button
-            className="bg-[#ff4655] text-[#ece8e1] uppercase text-sm font-normal 
+            className="hidden bg-[#ff4655] text-[#ece8e1] uppercase text-sm font-normal 
                px-8 py-5 h-16 leading-6 font-sans 
                outline outline-1 outline-[#ece8e1] outline-offset-3 
                transition-colors duration-300 ease-in-out md:mt-5">

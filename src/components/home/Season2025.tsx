@@ -18,7 +18,8 @@ export default function Season2025() {
         </p>
         <ButtonFullWidth
           color="bg-light-red md:w-1/3 xl:w-1/5"
-          link="#"
+          target="_blank"
+          link="https://www.youtube.com/watch?v=6U7nx6p0P_M&ab_channel=VALORANT"
           content="Assista agora"
         />
       </div>

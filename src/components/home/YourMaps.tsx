@@ -22,7 +22,8 @@ export default function YourMaps() {
           </span>
           <ButtonFullWidth
             color="bg-light-red mt-3 md:w-1/3 xl:w-1/2"
-            link="#"
+            link="/maps"
+            target=""
             content="VER TODOS OS MAPAS"
           />
         </div>

@@ -24,8 +24,9 @@ export default function WeAreValorant() {
           </span>
           <ButtonFullWidth
             color="bg-light-red mt-3 md:w-1/2"
-            link="#"
+            link="news/blur/6"
             content="Conheça o Jogo"
+            target="_black"
           />
         </div>
         <div className="xl:flex xl:flex-col xl:items-center xl:justify-center xl:w-1/2">

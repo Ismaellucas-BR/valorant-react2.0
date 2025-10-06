@@ -15,7 +15,7 @@ const NewsBlurPage = () => {
   return (
     <div className="news-page">
       {/* SEÇÃO HERO COM FUNDO BORRADO */}
-      <section className="relative flex flex-col items-center w-full  xl:h-[41.625rem]">
+      <section className="relative flex flex-col items-center w-full  xl:h-[41.625rem] bg-white">
         {/* Fundo borrado */}
 
         <div className="absolute inset-0 overflow-hidden">
@@ -35,7 +35,7 @@ const NewsBlurPage = () => {
           />
         </div>
         <div className="flex flex-col items-center relative xl:mt-[6rem]">
-          <div className="relative z-10 flex flex-col items-center gap-3 text-center w-[80%] mt-5">
+          <div className="relative z-10 flex flex-col items-center gap-3 text-center w-[80%] lg:w-full mt-5">
             <h1 className="font-tungsten text-4xl xl:text-[4rem] text-azulmarinho uppercase">
               {newsItem.title}
             </h1>
@@ -57,7 +57,7 @@ const NewsBlurPage = () => {
             </p>
           </span>
         </div>
-        <div className="relative flex flex-col items-center">
+        <div className="relative flex flex-col items-center bg-white">
           <div className="flex flex-col gap-5 w-[85%] my-10 xl:w-[60%]">
             {newsItem.content?.map((c, index) => {
               if (c.type === "paragraph")

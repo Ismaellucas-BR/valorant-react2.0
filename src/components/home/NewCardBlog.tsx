@@ -1,13 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
-import type { EmblaCarouselType, EmblaOptionsType } from "embla-carousel";
-import useEmblaCarousel from "embla-carousel-react";
-import {
-  NextButton,
-  PrevButton,
-  usePrevNextButtons,
-} from "./EmblaCarouselArrowButtons";
-
-// Tipando o JSON
+import { SquareArrowOutUpRight } from "lucide-react";
 import DataJSON from "../../data/News.json";
 import { Link } from "react-router";
 
@@ -60,44 +51,25 @@ export interface CardProps {
   content?: CardContent[];
   blog: boolean;
 }
-
-type PropType = {
-  slides: CardProps[];
-  options?: EmblaOptionsType;
-};
-
-const EmblaCarousel: React.FC<PropType> = ({ options }) => {
-  const [emblaRef, emblaApi] = useEmblaCarousel(options);
-  const [scrollProgress, setScrollProgress] = useState(0);
-
-  const {
-    prevBtnDisabled,
-    nextBtnDisabled,
-    onPrevButtonClick,
-    onNextButtonClick,
-  } = usePrevNextButtons(emblaApi);
-
-  const onScroll = useCallback((emblaApi: EmblaCarouselType) => {
-    const progress = Math.max(0, Math.min(1, emblaApi.scrollProgress()));
-    setScrollProgress(progress * 100);
-  }, []);
-
-  useEffect(() => {
-    if (!emblaApi) return;
-    onScroll(emblaApi);
-    emblaApi
-      .on("reInit", onScroll)
-      .on("scroll", onScroll)
-      .on("slideFocus", onScroll);
-  }, [emblaApi, onScroll]);
-
+export default function NewCardBlog() {
   return (
-    <div className="embla__slide flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-4">
-      <div
-        className="embla__viewport md:max-w-[100rem] w-[90vw] md:w-[100%]"
-        ref={emblaRef}>
-        <div className="embla__container relative w-full gap-7">
-          {Data.map((card) => {
+    <div className="flex flex-col items-center justify-center gap-10 flex-shrink-0 px-4 bg-white py-5 xl:py-20 xl:px-10 w-full">
+      <div className="flex justify-between items-center md:w-full py-3 w-[90%]">
+        <div className="">
+          <h2 className="text-azulmarinho font-tungsten text-[3rem] uppercase  leading-12 w-1/2 md:w-full">
+            Últimas Notícias
+          </h2>
+        </div>
+        <div className="flex justify-end items-center gap-3">
+          <span className="font-DINNext text-black text-center font-normal text-[0.9rem] w-[60%] md:w-full">
+            IR PARA A PÁGINA DE NOTÍCIAS
+          </span>
+          <SquareArrowOutUpRight className="stroke-light-red " size={20} />
+        </div>
+      </div>
+      <div className=" md:max-w-[100rem] w-[90%] md:w-[100%]">
+        <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full gap-7">
+          {Data.slice(0, 3).map((card) => {
             let linkTo = "#"; // fallback
             let isExternal = false;
 
@@ -123,9 +95,9 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
                 href={linkTo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="embla__slide flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-[1rem]"
+                className=" flex-shrink-0 w-full px-[1rem] "
                 key={card.id}>
-                <div className="embla__slide__content">
+                <div className="">
                   <div className="relative">
                     {card.thumb && <img src={card.thumb} className=" w-full" />}
                     <img
@@ -136,20 +108,20 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
                   </div>
 
                   <div className="flex gap-3 items-center font-DINNext font-bold mt-3">
-                    <span className="text-light-red uppercase text-[0.875rem]">
+                    <span className="text-light-red uppercase text-[0.875rem] font-inter">
                       {card.category}
                     </span>
                     <div className="w-[1px] h-4 bg-gray-400" />
-                    <span className="text-azulmarinho text-[0.75rem]">
+                    <span className="text-azulmarinho text-[0.75rem] font-inter">
                       {card.date}
                     </span>
                   </div>
 
                   <div>
-                    <h2 className="text-[1.125rem] text-azulmarinho font-bold">
+                    <h2 className="text-[1.125rem] text-azulmarinho font-bold font-inter">
                       {card.title}
                     </h2>
-                    <span className="text-[0.75rem] text-azulmarinho font-normal">
+                    <span className="text-[0.75rem] text-azulmarinho font-normal font-inter">
                       {card.subtitle}
                     </span>
                   </div>
@@ -158,9 +130,9 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
             ) : (
               <Link
                 to={linkTo}
-                className="embla__slide flex-shrink-0  w-full md:w-1/2 lg:w-1/3 md:px-[1rem]"
+                className=" flex-shrink-0  w-full"
                 key={card.id}>
-                <div className="embla__slide__content">
+                <div className="">
                   <div className="relative">
                     {card.thumb && <img src={card.thumb} className="w-full" />}
                     <img
@@ -171,20 +143,20 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
                   </div>
 
                   <div className="flex gap-3 items-center font-DINNext font-bold mt-3">
-                    <span className="text-light-red uppercase text-[0.875rem]">
+                    <span className="text-light-red uppercase text-[0.875rem] font-inter">
                       {card.category}
                     </span>
                     <div className="w-[1px] h-4 bg-gray-400" />
-                    <span className="text-azulmarinho text-[0.75rem]">
+                    <span className="text-azulmarinho text-[0.75rem] font-inter">
                       {card.date}
                     </span>
                   </div>
 
                   <div>
-                    <h2 className="text-[1.125rem] text-azulmarinho font-bold">
+                    <h2 className="text-[1.125rem] text-azulmarinho font-bold font-inter">
                       {card.title}
                     </h2>
-                    <span className="text-[0.75rem] text-azulmarinho font-normal">
+                    <span className="text-[0.75rem] text-azulmarinho font-normal font-inter">
                       {card.subtitle}
                     </span>
                   </div>
@@ -194,21 +166,6 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
           })}
         </div>
       </div>
-
-      <div className="embla__controls grid md:flex md:w-full lg:hidden!">
-        <div className="embla__progress w-2/3 md:w-full!">
-          <div
-            className="embla__progress__bar bg-light-red"
-            style={{ transform: `translate3d(${scrollProgress}%,0px,0px)` }}
-          />
-        </div>
-        <div className="embla__buttons text-light-red md:w-1/3">
-          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
-        </div>
-      </div>
     </div>
   );
-};
-
-export default EmblaCarousel;
+}

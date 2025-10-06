@@ -10,6 +10,7 @@ import Arsenal from "./pages/Arsenal";
 import Midia from "./pages/Midia";
 import NewsBlurPage from "./pages/NewsBlurPage";
 import NewsBgBlackPage from "./pages/NewsBgBlackPage";
+import News from "./pages/News";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/maps" element={<Maps />} />
           <Route path="/arsenal" element={<Arsenal />} />
           <Route path="/midia" element={<Midia />} />
+          <Route path="/news" element={<News />} />
           <Route path="/news/blur/:id" element={<NewsBlurPage />} />
           <Route path="/news/bgBlack/:id" element={<NewsBgBlackPage />} />
         </Route>

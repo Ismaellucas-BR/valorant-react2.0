@@ -42,7 +42,7 @@ const EmblaCarousel: React.FC<PropType> = ({ images, options }) => {
   }, [emblaMainApi, onSelect]);
 
   return (
-    <div className="emblaThumb flex flex-col items-center justify-center w-full xl:min-h-[53rem]">
+    <div className="emblaThumb flex flex-col items-center justify-center w-full xl:min-h-[53rem] ">
       {/* Imagens principais */}
       <div className="embla__viewportThumb" ref={emblaMainRef}>
         <div className="embla__containerThumb">
@@ -65,7 +65,7 @@ const EmblaCarousel: React.FC<PropType> = ({ images, options }) => {
       </div>
 
       {/* Thumbs */}
-      <div className="embla-thumbs  xl:w-[80%] ">
+      <div className="embla-thumbs  xl:w-[80%]  bg-white xl:mt-16">
         <div className="embla-thumbs__viewport" ref={emblaThumbsRef}>
           <div className="embla-thumbs__container">
             {images.map((image, index) => (
