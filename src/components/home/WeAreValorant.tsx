@@ -1,6 +1,7 @@
 import ButtonFullWidth from "../ButtonFullWidth";
-
+import { useTranslation } from "react-i18next";
 export default function WeAreValorant() {
+  const { t, i18n } = useTranslation(["home", "common"]);
   return (
     <section
       style={{
@@ -11,21 +12,16 @@ export default function WeAreValorant() {
       <div className="flex flex-col gap-7 w-[90%] xl:flex-row">
         <div className="flex flex-col gap-3 xl:w-1/2 xl:pr-20">
           <h2 className="font-tungsten text-[4rem] text-azulmarinho leading-16 lg:text-[5rem] xl:text-[7rem] xl:leading-28 xl:w-[90%]">
-            NÓS SOMOS VALORANT
+            {t("weAreValorant")}
           </h2>
-          <p className="text-azulmarinho">DESAFIE SEUS LIMITES</p>
+          <p className="text-azulmarinho">{t("ChallengeYourLimits")}</p>
           <span className="text-azulmarinho leading-6">
-            Misture o seu estilo e experiência em um cenário global e
-            competitivo. Você terá 13 rodadas para atacar e defender com
-            disparos certeiros e habilidades táticas. Com apenas uma vida por
-            rodada, você deve pensar mais rápido que o oponente se quiser
-            sobreviver. Encare inimigos nos modos Competitivo e Sem Ranque, além
-            da Disputa da Spike e do Mata-Mata!
+            {t("MixUpYourStyle")}
           </span>
           <ButtonFullWidth
             color="bg-light-red mt-3 md:w-1/2"
             link="news/blur/6"
-            content="Conheça o Jogo"
+            content={t("discoverTheGame")}
             target="_black"
           />
         </div>

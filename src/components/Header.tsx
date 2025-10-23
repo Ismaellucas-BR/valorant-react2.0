@@ -1,6 +1,9 @@
 import MenuMobile from "./MenuMobile";
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./translation/LanguageSwitcher";
 export default function Header() {
+  const { t, i18n } = useTranslation("common");
   return (
     <header className=" flex justify-center bg-[#111] w-full h-[5rem]">
       <div className="flex justify-between py-3 w-[90%]">
@@ -22,27 +25,27 @@ export default function Header() {
             <ul className="flex justify-center items-center gap-4 font-inter uppercase cursor-pointer text-xl">
               <li className="nav-effect">
                 <Link className="span-effect" to={"/agents"}>
-                  Agentes
+                  {t("Agents")}
                 </Link>
               </li>
               <li className="nav-effect">
                 <Link className="span-effect" to={"/maps"}>
-                  Mapas
+                  {t("Maps")}
                 </Link>
               </li>
               <li className="nav-effect">
                 <Link className="span-effect" to={"/arsenal"}>
-                  Arsenal
+                  {t("Arsenal")}
                 </Link>
               </li>
               <li className="nav-effect">
                 <Link className="span-effect" to={"/midia"}>
-                  Mídia
+                  {t("Media")}
                 </Link>
               </li>
               <li className="nav-effect">
                 <Link className="span-effect" to={"/news"}>
-                  Notícia
+                  {t("News")}
                 </Link>
               </li>
             </ul>
@@ -50,6 +53,9 @@ export default function Header() {
         </div>
         <div className="flex items-center justify-center md:hidden">
           <MenuMobile />
+        </div>
+        <div className="hidden md:flex">
+          <LanguageSwitcher />
         </div>
       </div>
     </header>

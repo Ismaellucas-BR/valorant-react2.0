@@ -8,7 +8,9 @@ import {
   SheetTrigger,
 } from "./ui/sheet";
 import { AlignJustify } from "lucide-react";
+import { useTranslation } from "react-i18next";
 export default function MenuMobile() {
+  const { t, i18n } = useTranslation("common");
   return (
     <Sheet>
       <SheetTrigger>
@@ -17,7 +19,7 @@ export default function MenuMobile() {
       <SheetContent className="bg-[#111]">
         <SheetHeader>
           <SheetTitle className="text-white">
-            O que você está procurando?
+            {t("questionMobileMenu")}
           </SheetTitle>
           <SheetDescription></SheetDescription>
         </SheetHeader>
@@ -25,27 +27,27 @@ export default function MenuMobile() {
           <ul className="flex flex-col justify-start items-start font-inter uppercase cursor-pointer text-xl pl-2">
             <li className="nav-effect">
               <Link className="span-effect text-white" to={"/agents"}>
-                Agentes
+                {t("Agents")}
               </Link>
             </li>
             <li className="nav-effect">
               <Link className="span-effect" to={"/maps"}>
-                Mapas
+                {t("Maps")}
               </Link>
             </li>
             <li className="nav-effect">
               <Link className="span-effect" to={"/arsenal"}>
-                Arsenal
+                {t("Arsenal")}
               </Link>
             </li>
             <li className="nav-effect">
               <Link className="span-effect" to={"/midia"}>
-                Mídia
+                {t("Media")}
               </Link>
             </li>
             <li className="nav-effect">
               <Link className="span-effect" to={"/news"}>
-                Notícia
+                {t("News")}
               </Link>
             </li>
           </ul>

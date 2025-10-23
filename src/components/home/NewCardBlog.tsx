@@ -1,6 +1,7 @@
 import { SquareArrowOutUpRight } from "lucide-react";
 import DataJSON from "../../data/News.json";
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
 const Data: CardProps[] = DataJSON as CardProps[];
 
@@ -52,17 +53,18 @@ export interface CardProps {
   blog: boolean;
 }
 export default function NewCardBlog() {
+  const { t, i18n } = useTranslation("home");
   return (
     <div className="flex flex-col items-center justify-center gap-10 flex-shrink-0 px-4 bg-white py-5 xl:py-20 xl:px-10 w-full">
       <div className="flex justify-between items-center md:w-full py-3 w-[90%]">
         <div className="">
           <h2 className="text-azulmarinho font-tungsten text-[3rem] uppercase  leading-12 w-1/2 md:w-full">
-            Últimas Notícias
+            {t("latestNews")}
           </h2>
         </div>
         <div className="flex justify-end items-center gap-3">
           <span className="font-DINNext text-black text-center font-normal text-[0.9rem] w-[60%] md:w-full">
-            IR PARA A PÁGINA DE NOTÍCIAS
+            {t("newsPage")}
           </span>
           <SquareArrowOutUpRight className="stroke-light-red " size={20} />
         </div>

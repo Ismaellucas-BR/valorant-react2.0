@@ -1,6 +1,7 @@
 import ButtonFullWidth from "../ButtonFullWidth";
-
+import { useTranslation } from "react-i18next";
 export default function YourMaps() {
+  const { t, i18n } = useTranslation("home");
   return (
     <section
       style={{
@@ -11,20 +12,17 @@ export default function YourMaps() {
       <div className="flex flex-col gap-7 w-[90%] xl:flex-row">
         <div className="flex flex-col gap-3 xl:justify-center xl:pr-20 xl:w-1/2">
           <h2 className="font-tungsten text-[4rem] text-azulmarinho leading-16 lg:text-[5rem] xl:text-[7rem]">
-            SEUS MAPAS
+            {t("yourMaps")}
           </h2>
-          <p className="text-azulmarinho xl:mt-5">BATALHE AO REDOR DO MUNDO</p>
-          <span className="text-azulmarinho leading-6">
-            Cada mapa serve como um palco para mostrar sua criatividade. Os
-            mapas são feitos sob medida para estratégias de equipe, jogadas
-            espetaculares e momentos eletrizantes. Faça as jogadas que todo
-            mundo vai tentar imitar no futuro!
-          </span>
+          <p className="text-azulmarinho xl:mt-5">
+            {t("battleAroundTheWorld")}
+          </p>
+          <span className="text-azulmarinho leading-6">{t("eachMap")}</span>
           <ButtonFullWidth
             color="bg-light-red mt-3 md:w-1/3 xl:w-1/2"
             link="/maps"
             target=""
-            content="VER TODOS OS MAPAS"
+            content={t("seeAllMaps")}
           />
         </div>
         <div className="xl:w-1/2 scroll-smooth">

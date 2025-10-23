@@ -1,6 +1,7 @@
 import ButtonFullWidth from "../ButtonFullWidth";
-
+import { useTranslation } from "react-i18next";
 export default function YourAgents() {
+  const { t, i18n } = useTranslation(["home", "common"]);
   return (
     <section
       style={{
@@ -11,22 +12,19 @@ export default function YourAgents() {
       <div className="flex flex-col gap-7 w-[90%] xl:flex-row-reverse xl:py-10">
         <div className="flex flex-col gap-3 xl:w-1/2 xl:justify-center">
           <h2 className="font-tungsten text-[4rem] text-white leading-16 lg:text-[5rem] xl:text-[7rem]">
-            SEUS AGENTES
+            {t("yourAgents")}
           </h2>
           <p className="text-white xl:mt-5 font-inter font-semibold">
-            A CRIATIVIDADE É SUA MELHOR ARMA.
+            {t("creativityIsYourBestWeapon")}
           </p>
           <span className="text-white leading-6">
-            Mais do que armas e munição, VALORANT inclui agentes com habilidades
-            adaptativas, rápidas e letais, que criam oportunidades para você
-            exibir sua mecânica de tiro. Cada Agente é único, assim como os
-            momentos de destaque de cada partida!
+            {t("moreThanJustWeapons")}
           </span>
           <ButtonFullWidth
             color="bg-azulmarinho mt-3 md:w-2/4 xl:mt-10"
             link="/agents"
             target=""
-            content="VER TODOS OS AGENTES"
+            content={t("SeeAllAgents")}
           />
         </div>
         <div className="xl:w-1/2">

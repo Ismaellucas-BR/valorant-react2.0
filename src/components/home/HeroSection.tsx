@@ -1,4 +1,6 @@
+import { useTranslation } from "react-i18next";
 export default function HeroSection() {
+  const { t, i18n } = useTranslation("home");
   return (
     <section className="w-full">
       <div className="relative ">
@@ -25,8 +27,7 @@ export default function HeroSection() {
             className="w-[15rem] h-[2.9rem] md:w-[21.25rem] md:h-[4rem]"
           />
           <h1 className="text-[1.6rem] font-tungsten uppercase leading-7 w-[90%] md:w-full">
-            VALORANT – Jogo de tiro tático 5x5 estrelando Agentes com
-            habilidades únicas
+            {t("h1HeroSection")}
           </h1>
           <button
             className="hidden bg-[#ff4655] text-[#ece8e1] uppercase text-sm font-normal 
