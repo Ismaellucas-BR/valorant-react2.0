@@ -1,10 +1,11 @@
 import { useParams } from "react-router";
 import DataJSON from "../data/News.json";
 import type { CardProps } from "../components/carousel/EmblaCarousel"; // ajuste o path conforme seu projeto
-
+import { useTranslation } from "react-i18next";
 const Data: CardProps[] = DataJSON as CardProps[];
 
 const NewsBgBlackPage = () => {
+  const { t } = useTranslation("News");
   const { id } = useParams<{ id: string }>();
   const newsItem = Data.find(
     (item) => item.id === Number(id) && item.type === "bgBlack"
@@ -40,10 +41,10 @@ const NewsBgBlackPage = () => {
           </div>
           <div className="relative z-10 flex flex-col items-center gap-3 text-center w-[80%] mt-5">
             <h1 className="font-tungsten font-normal text-4xl xl:text-[4rem] text-azulmarinho uppercase text-left">
-              {newsItem.title}
+              {t(`${newsItem.id}.title`)}
             </h1>
             <h2 className="font-inter text-base text-azulmarinho text-left">
-              {newsItem.subtitle}
+              {t(`${newsItem.id}.subtitle`)}
             </h2>
           </div>
 
@@ -55,26 +56,33 @@ const NewsBgBlackPage = () => {
         <div className="relative flex flex-col items-center">
           <div className="flex flex-col gap-5 w-[85%] my-10 xl:w-[60%]">
             {newsItem.content?.map((c, index) => {
-              if (c.type === "paragraph")
-                return (
-                  <p
-                    className="font-inter text-base text-azulmarinho"
-                    key={index}>
-                    {c.content}
-                  </p>
+              const translatedContent = t(
+                `${newsItem.id}.content.${index}.content`
+              );
+              if (c.type === "paragraph" || c.type === "subtitle") {
+                const translated = t(
+                  `${newsItem.id}.content.${index}.content`,
+                  {
+                    defaultValue: c.content,
+                  }
                 );
+                return c.type === "paragraph" ? (
+                  <p
+                    key={index}
+                    className="font-inter text-base text-azulmarinho">
+                    {translated}
+                  </p>
+                ) : (
+                  <h2
+                    key={index}
+                    className="text-azulmarinho font-inter font-semibold text-lg">
+                    {translated}
+                  </h2>
+                );
+              }
 
               if (c.type === "image")
                 return <img key={index} src={c.content} alt="" />;
-
-              if (c.type === "subtitle")
-                return (
-                  <h2
-                    key={index}
-                    className="text-azulmarinho font-inter font-semibold text-lg ">
-                    {c.content}
-                  </h2>
-                );
 
               if (c.type === "video") {
                 const url = c.content;
@@ -111,37 +119,27 @@ const NewsBgBlackPage = () => {
               }
 
               if (c.type === "list") {
-                if (Array.isArray(c.content)) {
-                  return (
-                    <ul
-                      key={index}
-                      className="flex flex-col gap-3 list-disc pl-6">
-                      {c.content.map((li, i) => (
-                        <li
-                          className="text-azulmarinho font-inter text-sm"
-                          key={i}>
-                          {li}
-                        </li>
-                      ))}
-                    </ul>
-                  );
-                }
-                if (c.content.dad && Array.isArray(c.content.content)) {
-                  return (
-                    <ul
-                      key={index}
-                      className="list-disc pl-6 flex flex-col gap-5">
-                      <li>
-                        {c.content.dad}
-                        <ul className=" list-disc pl-6">
-                          {c.content.content.map((subItem, j) => (
-                            <li key={j}>{subItem}</li>
-                          ))}
-                        </ul>
+                const translatedList = t(
+                  `${newsItem.id}.content.${index}.content`,
+                  {
+                    returnObjects: true,
+                    defaultValue: c.content,
+                  }
+                ) as string[];
+
+                return (
+                  <ul
+                    key={index}
+                    className="list-disc pl-6 flex flex-col gap-2">
+                    {translatedList.map((item, i) => (
+                      <li
+                        key={i}
+                        className="font-inter text-sm text-azulmarinho">
+                        {item}
                       </li>
-                    </ul>
-                  );
-                }
+                    ))}
+                  </ul>
+                );
               }
 
               if (c.type === "table") {

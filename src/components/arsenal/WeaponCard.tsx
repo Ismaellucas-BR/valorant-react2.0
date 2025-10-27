@@ -1,5 +1,7 @@
 import WeaponsData from "../../data/Weapons.json";
+import { useTranslation } from "react-i18next";
 export default function WeaponCard() {
+  const { t } = useTranslation("Arsenal");
   return WeaponsData.map((weapon) => {
     return (
       <div key={weapon.id} className="flex flex-col gap-1">
@@ -8,10 +10,10 @@ export default function WeaponCard() {
           {weapon.name}
         </h2>
         <span className="font-DINNext font-bold text-[0.7rem] xl:text-[0.875rem]">
-          {weapon.types}
+          {t(`${weapon.name}.Type`)}
         </span>
         <span className="font-Inter font-normal text-[0.875rem]">
-          {weapon.description}
+          {t(`${weapon.name}.Content`)}
         </span>
       </div>
     );

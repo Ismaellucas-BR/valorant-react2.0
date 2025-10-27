@@ -1,4 +1,5 @@
 import React, { useMemo, type ComponentType, type SVGProps } from "react";
+import { useTranslation } from "react-i18next";
 import { useParams } from "react-router";
 import DataAgents from "../data/Agents.json";
 import SvgController from "../assets/svg/Controle";
@@ -60,6 +61,7 @@ const functionImages: Record<AgentFunction, FunctioAssets> = {
 };
 
 const InternalAgents: React.FC = () => {
+  const { t, i18n } = useTranslation(["internalAgents", "common"]);
   const { agentId } = useParams<{ agentId: string }>();
 
   const agent = useMemo(
@@ -71,6 +73,8 @@ const InternalAgents: React.FC = () => {
     return <div className="text-white p-8">Agente não encontrado.</div>;
   const assets = functionImages[agent.function as AgentFunction];
   const Icon = assets.RedIcon;
+  console.log(i18n.t("questionMobileMenu"));
+
   return (
     <div className="text-white">
       {/* Banner */}
@@ -91,13 +95,15 @@ const InternalAgents: React.FC = () => {
               {agent.name}
             </h1>
             <span className="text-white text-xl font-DINNext font-normal mb-4">
-              {agent.description}
+              {t(`${agent.name}.description`)}
             </span>
             <div className="flex flex-col items-center gap-3 outline-1 outline-light-red outline-offset-10 p-4  mb-6 bg-[rgb(15,25,35)]! h-[8rem] w-[8rem]">
               <Icon className="fill-light-red text-light-red stroke-light-red" />
               <div className="flex flex-col items-center uppercase text-[0.6rem] gap-3">
-                <p className="font-inter">função</p>
-                <p className="font-inter text-light-red">{agent.function}</p>
+                <p className="font-inter">{t(`Function`, { ns: "common" })}</p>
+                <p className="font-inter text-light-red">
+                  {t(`${agent.name}.function`)}
+                </p>
               </div>
             </div>
           </div>
@@ -115,7 +121,7 @@ const InternalAgents: React.FC = () => {
             <div className="xl:w-1/2 xl:flex xl:flex-col xl:justify-center xl:gap-15 xl:items-center">
               <div className="flex flex-col items-center xl:w-4/5">
                 <h2 className="text-3xl font-bold mb-6 uppercase font-tungsten text-[3.5rem] leading-16 text-center xl:text-[8rem] xl:leading-32">
-                  Habilidades especiais
+                  {t(`specialSkills`, { ns: "common" })}
                 </h2>
                 <TabsList className="bg-transparent! [data-state=active]:bg-transparent! w-full mb-8">
                   {agent.habilidade.map((hab) => (
@@ -139,20 +145,22 @@ const InternalAgents: React.FC = () => {
                 value={String(hab.id)}
                 key={hab.id}
                 className="flex flex-col items-center gap-5 xl:w-1/2">
-                <video
-                  src={hab.video}
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  className="w-full h-auto"
-                />
+                <div className="w-full aspect-video bg-black">
+                  <video
+                    src={hab.video}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <div className="flex flex-col items-center gap-3 xl:gap-5">
                   <h2 className="text-xl font-bold mt-2 font-tungsten text-[1.75rem] xl:text-[2.25rem]">
-                    {hab.name}
+                    {t(`${agent.name}.habilidade.${hab.id}.name`)}
                   </h2>
                   <span className="font-DINNext text-sm leading-7 xl:w-2/3 text-center xl:text-xl font-normal">
-                    {hab.description}
+                    {t(`${agent.name}.habilidade.${hab.id}.description`)}
                   </span>
                 </div>
               </TabsContent>

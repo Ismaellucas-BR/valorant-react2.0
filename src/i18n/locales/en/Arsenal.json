@@ -1,0 +1,78 @@
+{
+  "CLASSIC": {
+    "Type": "LIGHT WEAPONS",
+    "Content": "Light and versatile, the standard weapon is an undeniable classic."
+  },
+  "SHORTY": {
+    "Type": "LIGHT WEAPONS",
+    "Content": "Surprise your enemies up close for maximum efficiency."
+  },
+  "FRENZY": {
+    "Type": "LIGHT WEAPONS",
+    "Content": "At close range, finger on the trigger! At long range... better look for another weapon."
+  },
+  "GHOST": {
+    "Type": "LIGHT WEAPONS",
+    "Content": "Sleek, silent, and efficient at any shooting distance."
+  },
+  "SHERIFF": {
+    "Type": "LIGHT WEAPONS",
+    "Content": "The Sheriff is a modern revolver made for those who aim for precise headshots."
+  },
+  "STINGER": {
+    "Type": "SUBMACHINE GUNS",
+    "Content": "Enemies know the end has come when they feel the Stinger's shot."
+  },
+  "SPECTRE": {
+    "Type": "SUBMACHINE GUNS",
+    "Content": "In doubt? Go with the Spectre and everything works out."
+  },
+  "BUCKY": {
+    "Type": "SHOTGUNS",
+    "Content": "Attacker? Defender? Doesn’t matter. The important thing is to have this shotgun in hand."
+  },
+  "JUDGE": {
+    "Type": "SHOTGUNS",
+    "Content": "The Judge is a fast-firing automatic shotgun that deals consistent high damage."
+  },
+  "BULLDOG": {
+    "Type": "RIFLES",
+    "Content": "The Bulldog is the kind of weapon that brings satisfaction with every kill."
+  },
+  "GUARDIAN": {
+    "Type": "RIFLES",
+    "Content": "This weapon shines in the hands of patient marksmen."
+  },
+  "PHANTOM": {
+    "Type": "RIFLES",
+    "Content": "The Phantom is a balanced weapon, designed to fire stable shots reaching long distances."
+  },
+  "VANDAL": {
+    "Type": "RIFLES",
+    "Content": "This extremely powerful rifle causes massive damage with small bursts of bullets."
+  },
+  "MARSHAL": {
+    "Type": "SNIPER RIFLES",
+    "Content": "Pick a good angle, aim, and the target will regret turning that corner."
+  },
+  "OPERATOR": {
+    "Type": "SNIPER RIFLES",
+    "Content": "Settle in a spot and you’ll be able to control key areas."
+  },
+  "OUTLAW": {
+    "Type": "SNIPER RIFLES",
+    "Content": "Double barrel, single impact. The perfect choice for the moment of truth."
+  },
+  "ARES": {
+    "Type": "MACHINE GUNS",
+    "Content": "Never underestimate the power of this weapon."
+  },
+  "ODIN": {
+    "Type": "MACHINE GUNS",
+    "Content": "Wielding such a grand weapon, one thing is certain: the owner ascends to glory while the opponent falls into ruin."
+  },
+  "TACTICAL KNIFE": {
+    "Type": "MELEE",
+    "Content": "For a more intimate solution."
+  }
+}

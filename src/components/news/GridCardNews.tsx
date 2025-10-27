@@ -1,4 +1,3 @@
-import { SquareArrowOutUpRight } from "lucide-react";
 import DataJSON from "../../data/News.json";
 import { Link } from "react-router";
 

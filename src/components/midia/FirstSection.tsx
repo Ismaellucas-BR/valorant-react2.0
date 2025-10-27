@@ -1,21 +1,23 @@
+import { useTranslation } from "react-i18next";
 export default function FirstSection() {
+  const { t } = useTranslation(["common", "Media"]);
   return (
     <section className="bgMidia bg-center bg-cover bg-no-repeat flex flex-col items-center w-full xl:py-32 text-white py-7">
       <div className=" flex flex-col gap-14 w-[90%]  xl:flex-row">
         <div className="w-full xl:w-1/2">
-          <h1 className="font-tungsten text-[4rem] xl:text-[7rem]">MÍDIA</h1>
+          <h1 className="font-tungsten text-[4rem] xl:text-[7rem]">
+            {t("Media")}
+          </h1>
           <div className="flex flex-col gap-3">
             <span className="font-inter text-sm xl:text-xl">
-              Nosso trabalho, sua diversão. Não importa se você é jornalista,
-              criador de conteúdo ou uma mistura dos dois – tudo aqui é de uso
-              livre. Fique à vontade para pegar e usar o que quiser!
+              {t("ourWork1", { ns: "Media" })}
             </span>
             <span className="font-inter text-sm xl:text-xl">
-              Não se esqueça: se você criar algum conteúdo com esses arquivos,
-              marque @VALORANT e @VALORANTBrasil nas redes sociais. Queremos ver
-              o que você criou, mas lembre de seguir nosso{" "}
-              <span className="text-black underline">Lenga-lenga Jurídico</span>
-              !
+              {t("ourWork2", { ns: "Media" })}{" "}
+              <span className="text-black underline">
+                {t("ourWork3", { ns: "Media" })}
+              </span>
+              {t("ourWork4", { ns: "Media" })}
             </span>
           </div>
         </div>

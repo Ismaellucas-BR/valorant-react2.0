@@ -1,4 +1,5 @@
 import DataMidia from "../../data/Midias.json";
+import { useTranslation } from "react-i18next";
 interface MidiaProps {
   id: number;
   url: string;
@@ -7,6 +8,7 @@ interface MidiaProps {
   title: string;
 }
 export default function MidiaCards() {
+  const { t } = useTranslation("Media");
   return (
     <div className="bg-[rgb(236,232,225)] py-14">
       <div className="grid grid-cols-1 relative gap-8 w-[90%] mx-auto md:grid-cols-2 xl:grid-cols-3">
@@ -35,7 +37,7 @@ export default function MidiaCards() {
 
               <div>
                 <h2 className="text-[1.125rem] text-azulmarinho font-bold">
-                  {midia.title}
+                  {t(`${midia.id}`)}
                 </h2>
               </div>
             </div>

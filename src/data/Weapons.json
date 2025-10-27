@@ -2,14 +2,14 @@
   {
     "id": 0,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/bfa273477b5ce6345c00da5a396281bd51830dc8-680x384.png?auto=format&fit=crop&q=80&h=384&w=680&crop=center",
-    "name": "CLASSIC.",
+    "name": "CLASSIC",
     "types": "TYPES // ARMAS LEVES",
     "description": "Leve e versátil, a arma padrão é um clássico inegável."
   },
   {
     "id": 1,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/25b9844dfade4acdbd05229da3b07b0071e5059a-680x384.png?auto=format&fit=crop&q=80&h=384&w=680&crop=center",
-    "name": "SHORTY.",
+    "name": "SHORTY",
     "types": "TYPES // ARMAS LEVES",
     "description": "Surpreenda seus inimigos bem de perto para obter o máximo de eficiência."
   },
@@ -23,21 +23,21 @@
   {
     "id": 3,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/575558a88acc67dfac8da6c6ab26f4b61589c96f-680x383.png?auto=format&fit=crop&q=80&h=383&w=680&crop=center",
-    "name": "GHOST.",
+    "name": "GHOST",
     "types": "TYPES // ARMAS LEVES",
     "description": "Elegante, silenciosa e eficiente ao disparar de qualquer distância."
   },
   {
     "id": 4,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/37efa958bf1dd8ec57a0b1585e741599c7b7bee7-680x383.png?auto=format&fit=crop&q=80&h=383&w=680&crop=center",
-    "name": "SHERIFF.",
+    "name": "SHERIFF",
     "types": "TYPES // ARMAS LEVES",
     "description": "Sheriff é um revólver moderno feito para quem busca tiros certeiros na cabeça do inimigo."
   },
   {
     "id": 5,
     "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/377c8a9058a364478ed179ccbe41a68dd2255234-680x383.png?auto=format&fit=crop&q=80&h=200&w=355&crop=center",
-    "name": "STINGER.",
+    "name": "STINGER",
     "types": "SUBMETRALHADORAS",
     "description": "Os inimigos sabem que o fim chegou quando sentem o disparo da Stinger."
   },
