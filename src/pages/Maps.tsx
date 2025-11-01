@@ -6,7 +6,7 @@ export default function Maps() {
   const OPTIONS: EmblaOptionsType = {};
   const { t } = useTranslation("Maps");
   return (
-    <div className="flex flex-col gap-16 w-[90%] py-32 text-azulmarinho bg-white max-w-[120rem] xl:px-[15rem]">
+    <div className="flex flex-col gap-16 p-6 py-32 text-azulmarinho bg-white max-w-[120rem] xl:px-[15rem]">
       <h1 className="font-tungsten text-[6rem]  uppercase">
         {t("Maps", { ns: "Maps" })}
       </h1>

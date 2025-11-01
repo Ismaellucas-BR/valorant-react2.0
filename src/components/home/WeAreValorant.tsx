@@ -1,7 +1,6 @@
-import ButtonFullWidth from "../ButtonFullWidth";
 import { useTranslation } from "react-i18next";
 export default function WeAreValorant() {
-  const { t, i18n } = useTranslation(["home", "common"]);
+  const { t } = useTranslation(["home", "common"]);
   return (
     <section
       style={{
@@ -18,12 +17,6 @@ export default function WeAreValorant() {
           <span className="text-azulmarinho leading-6">
             {t("MixUpYourStyle")}
           </span>
-          <ButtonFullWidth
-            color="bg-light-red mt-3 md:w-1/2"
-            link="news/blur/6"
-            content={t("discoverTheGame")}
-            target="_black"
-          />
         </div>
         <div className="xl:flex xl:flex-col xl:items-center xl:justify-center xl:w-1/2">
           <video

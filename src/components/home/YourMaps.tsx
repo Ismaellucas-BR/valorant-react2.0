@@ -1,7 +1,7 @@
 import ButtonFullWidth from "../ButtonFullWidth";
 import { useTranslation } from "react-i18next";
 export default function YourMaps() {
-  const { t, i18n } = useTranslation("home");
+  const { t } = useTranslation("home");
   return (
     <section
       style={{

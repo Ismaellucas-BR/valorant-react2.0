@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 export default function HeroSection() {
-  const { t, i18n } = useTranslation("home");
+  const { t } = useTranslation("home");
   return (
     <section className="w-full">
       <div className="relative ">

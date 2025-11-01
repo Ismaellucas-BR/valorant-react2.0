@@ -53,7 +53,7 @@ export interface CardProps {
   blog: boolean;
 }
 export default function NewCardBlog() {
-  const { t, i18n } = useTranslation("home");
+  const { t } = useTranslation("home");
   return (
     <div className="flex flex-col items-center justify-center gap-10 flex-shrink-0 px-4 bg-white py-5 xl:py-20 xl:px-10 w-full">
       <div className="flex justify-between items-center md:w-full py-3 w-[90%]">

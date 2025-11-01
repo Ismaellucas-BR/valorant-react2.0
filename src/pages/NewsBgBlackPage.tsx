@@ -41,7 +41,7 @@ const NewsBgBlackPage = () => {
           </div>
           <div className="relative z-10 flex flex-col items-center gap-3 text-center w-[80%] mt-5">
             <h1 className="font-tungsten font-normal text-4xl xl:text-[4rem] text-azulmarinho uppercase text-left">
-              {t(`${newsItem.id}.title`)}
+              {t(`news_${newsItem.id}.title`)}
             </h1>
             <h2 className="font-inter text-base text-azulmarinho text-left">
               {t(`${newsItem.id}.subtitle`)}
@@ -56,9 +56,6 @@ const NewsBgBlackPage = () => {
         <div className="relative flex flex-col items-center">
           <div className="flex flex-col gap-5 w-[85%] my-10 xl:w-[60%]">
             {newsItem.content?.map((c, index) => {
-              const translatedContent = t(
-                `${newsItem.id}.content.${index}.content`
-              );
               if (c.type === "paragraph" || c.type === "subtitle") {
                 const translated = t(
                   `${newsItem.id}.content.${index}.content`,

@@ -1,7 +1,7 @@
 import ButtonFullWidth from "../ButtonFullWidth";
 import { useTranslation } from "react-i18next";
 export default function YourAgents() {
-  const { t, i18n } = useTranslation(["home", "common"]);
+  const { t } = useTranslation(["home", "common"]);
   return (
     <section
       style={{

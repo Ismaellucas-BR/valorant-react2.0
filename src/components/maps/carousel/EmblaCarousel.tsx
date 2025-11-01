@@ -70,7 +70,7 @@ const EmblaCarousel: React.FC<PropType> = ({ images, options }) => {
           <div className="embla-thumbs__container">
             {images.map((image, index) => (
               <div
-                className="embla-thumbs__slide   object-cover"
+                className="embla-thumbs__slide   object-cover hover:cursor-pointer"
                 key={image.id}>
                 <Thumb
                   onClick={() => onThumbClick(index)}

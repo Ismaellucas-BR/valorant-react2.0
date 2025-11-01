@@ -4,7 +4,7 @@ function LanguageSwitcher() {
   const { lang, changeLanguage } = useLanguage();
 
   return (
-    <div className="relative flex items-center">
+    <div className="relative inline-flex items-center">
       {/* Fundo do switcher */}
       <div className="w-16 h-8 bg-gray-300 rounded-full relative transition-colors">
         {/* Switcher */}

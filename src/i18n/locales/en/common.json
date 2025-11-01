@@ -7,5 +7,10 @@
   "questionMobileMenu": "What are you looking for?",
   "Function": "FUNCTION",
   "specialSkills": "Special skills",
-  "chooseYourWeapon": "Choose your weapon"
+  "chooseYourWeapon": "Choose your weapon",
+  "SeeMore": "See more",
+  "alert": {
+    "titulo": "Attention",
+    "subtitulo": "This site is student-oriented. No information here should be interpreted or used for commercial purposes."
+  }
 }

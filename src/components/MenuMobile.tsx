@@ -9,8 +9,9 @@ import {
 } from "./ui/sheet";
 import { AlignJustify } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./translation/LanguageSwitcher";
 export default function MenuMobile() {
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
   return (
     <Sheet>
       <SheetTrigger>
@@ -45,10 +46,8 @@ export default function MenuMobile() {
                 {t("Media")}
               </Link>
             </li>
-            <li className="nav-effect">
-              <Link className="span-effect" to={"/news"}>
-                {t("News")}
-              </Link>
+            <li>
+              <LanguageSwitcher />
             </li>
           </ul>
         </nav>

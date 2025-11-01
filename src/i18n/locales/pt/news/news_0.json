@@ -1,0 +1,63 @@
+{
+  "id": 0,
+  "title": "Champions Paris: Bolão apoiado pela AWS",
+  "subtitle": "O Bolão começa em 4 de setembro no site e no cliente. Prepare-se!",
+  "category": "Esports",
+  "date": "4 de setembro de 2025",
+  "type": "bgBlack",
+  "content": [
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "content": "O Bolão, apoiado pela AWS, chegou! Compita com seus amigos, acompanhe os placares diariamente, escolha os azarões e levante o punho para o céu quando aquela equipe que você desacreditou fizer uma corrida milagrosa e acabar com os seus Palpites Perfeitos."
+    },
+    {
+      "id": "p2",
+      "type": "paragraph",
+      "content": "A magia e o caos do Bolão estão de volta, e desta vez em um novo nível e com uma grande novidade: boas-vindas às Facções!"
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "content": "E o que são as Facções? Para o Champions Paris, dez criadores globais estão cada um liderando sua própria Facção. Você pode se juntar a uma Facção, e seus palpites vão contribuir diretamente para o caminho da vitória do seu criador favorito. Se os palpites combinados da comunidade dele forem os mais fortes, o Líder da Facção levará para casa O CINTO, e você compartilhará a honra de se tornar um dos primeiros Campeões de Facção do Bolão!"
+    },
+    {
+      "id": "p4",
+      "type": "paragraph",
+      "content": "E as recompensas? Cada Líder de Facção escolheu um item especial dentro do jogo que será concedido aos membros de sua Facção em caso de vitória."
+    },
+    {
+      "id": "p5",
+      "type": "paragraph",
+      "content": "Marque aquele seu amigo fissurado em estatísticas, chame a galera no Discord e arrisque seus palpites nos vencedores para ter a chance de ganhar recompensas."
+    },
+    {
+      "id": "subtitle1",
+      "type": "subtitle",
+      "content": "Datas importantes:"
+    },
+    {
+      "id": "list1",
+      "type": "list",
+      "content": [
+        "Bolão da Fase de Grupos: abre em 4 de setembro às 13:00 BRT; fecha em 12 de setembro às 10:20 BRT, com o início da Fase de Grupos.",
+        "Bolão das Eliminatórias: abre em 22 de setembro, após o sorteio e a publicação do cronograma (estimado para 22:00 BRT); fecha em 25 de setembro às 10:20 BRT, com o início das Eliminatórias."
+      ]
+    },
+    {
+      "id": "subtitle2",
+      "type": "subtitle",
+      "content": "Recompensas do Bolão"
+    },
+    {
+      "id": "list2",
+      "type": "list",
+      "content": [
+        "Spray Tejo ¡Eureka! por dar pelo menos 1 palpite, seja na Fase de Grupos ou nas Eliminatórias.",
+        "Pingente G.O.A.T. para quem ficar entre os 50% melhores no final do evento",
+        "Pingente G.O.A.T. dourado para quem ficar entre os 20% melhores no final do evento",
+        "Título '100%' para quem acertar todos os palpites no final do evento"
+      ]
+    }
+  ]
+}

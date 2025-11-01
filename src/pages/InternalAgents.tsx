@@ -128,7 +128,7 @@ const InternalAgents: React.FC = () => {
                     <TabsTrigger
                       key={hab.id}
                       value={String(hab.id)}
-                      className="h-auto data-['active']:scroll-m-0!">
+                      className="h-auto data-['active']:scroll-m-0! hover:cursor-pointer active:shadow-none!">
                       <img
                         src={hab.icon}
                         alt={hab.name}

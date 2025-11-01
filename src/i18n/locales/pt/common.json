@@ -8,5 +8,10 @@
   "discoverTheGame": "Conheça o jogo",
   "Function": "FUNÇÃO",
   "specialSkills": "Habilidades especiais",
-  "chooseYourWeapon": "Escolha a sua arma"
+  "chooseYourWeapon": "Escolha a sua arma",
+  "SeeMore": "Veja mais",
+  "alert": {
+    "titulo": "Atenção",
+    "subtitulo": "Este site tem caráter estudantil. Nenhuma informação aqui deve ser interpretada ou utilizada com fins comerciais."
+  }
 }

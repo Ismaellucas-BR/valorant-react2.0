@@ -1,5 +1,6 @@
 import DataMidia from "../../data/Midias.json";
 import { useTranslation } from "react-i18next";
+
 interface MidiaProps {
   id: number;
   url: string;
@@ -7,20 +8,31 @@ interface MidiaProps {
   date: string;
   title: string;
 }
-export default function MidiaCards() {
+interface MidiaCardsProps {
+  limit?: number;
+}
+
+export default function MidiaCards({ limit }: MidiaCardsProps) {
   const { t } = useTranslation("Media");
+
+  const displayedMidias = limit ? DataMidia.slice(0, limit) : DataMidia;
+
   return (
     <div className="bg-[rgb(236,232,225)] py-14">
       <div className="grid grid-cols-1 relative gap-8 w-[90%] mx-auto md:grid-cols-2 xl:grid-cols-3">
-        {DataMidia.map((midia: MidiaProps) => (
+        {displayedMidias.map((midia: MidiaProps) => (
           <a
             href={midia.url}
             target="_blank"
-            className="flex-shrink-0 w-full  cursor-pointer"
+            className="flex-shrink-0 w-full cursor-pointer"
             key={midia.id}>
-            <div className="">
+            <div>
               <div className="relative">
-                <img src={midia.image} className="w-full h-auto" />
+                <img
+                  src={midia.image}
+                  className="w-full h-auto"
+                  alt={midia.title}
+                />
                 <img
                   src="https://playvalorant.com/_next/static/node_modules/@riotgames/blades-ui/dist/skins/common/assets/download-square.svg"
                   alt="icone de link"

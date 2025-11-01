@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./translation/LanguageSwitcher";
 export default function Header() {
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
   return (
     <header className=" flex justify-center bg-[#111] w-full h-[5rem]">
       <div className="flex justify-between py-3 w-[90%]">
@@ -41,11 +41,6 @@ export default function Header() {
               <li className="nav-effect">
                 <Link className="span-effect" to={"/midia"}>
                   {t("Media")}
-                </Link>
-              </li>
-              <li className="nav-effect">
-                <Link className="span-effect" to={"/news"}>
-                  {t("News")}
                 </Link>
               </li>
             </ul>

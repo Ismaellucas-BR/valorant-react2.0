@@ -1,0 +1,63 @@
+{
+  "id": 0,
+  "title": "Champions Paris: Pool supported by AWS",
+  "subtitle": "The jackpot starts on September 4th on the website and on the client. Get ready!",
+  "category": "Esports",
+  "date": "September 4, 2025",
+  "type": "bgBlack",
+  "content": [
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "content": "Jackpot, powered by AWS, is here! Compete with your friends, follow the daily leaderboards, pick the underdogs, and raise your fist to the sky when that team you disbelieved pulls off a miraculous run and shatters your Perfect Predictions."
+    },
+    {
+      "id": "p2",
+      "type": "paragraph",
+      "content": "The magic and chaos of jackpot are back, this time on a new level and with a big new feature: welcome to Factions!"
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "content": "And what are Factions? For Champions Paris, ten global creators are each leading their own Faction. You can join a Faction, and your predictions will directly contribute to your favorite creator's path to victory. If the combined predictions from their community are the strongest, the Faction Leader will take home THE BELT, and you'll share the honor of becoming one of the first Faction Champions of the Pick 'em!"
+    },
+    {
+      "id": "p4",
+      "type": "paragraph",
+      "content": "And the rewards? Each Faction Leader has chosen a special in-game item that will be awarded to their Faction members upon victory."
+    },
+    {
+      "id": "p5",
+      "type": "paragraph",
+      "content": "Tag your friend who's obsessed with statistics, get together on Discord, and bet on the winners for a chance to win rewards."
+    },
+    {
+      "id": "subtitle1",
+      "type": "subtitle",
+      "content": "Important dates:"
+    },
+    {
+      "id": "list1",
+      "type": "list",
+      "content": [
+        "Group Stage Prediction: Opens September 4th at 1:00 PM BRT; closes September 12th at 10:20 AM BRT, with the start of the Group Stage.",
+        "Qualifying Pool: opens on September 22nd, after the draw and publication of the schedule (estimated for 10:00 PM BRT); closes on September 25th at 10:20 AM BRT, with the start of the Qualifying Pool."
+      ]
+    },
+    {
+      "id": "subtitle2",
+      "type": "subtitle",
+      "content": "Pool Rewards"
+    },
+    {
+      "id": "list2",
+      "type": "list",
+      "content": [
+        "Spray Tejo ¡Eureka! for making at least 1 prediction, whether in the Group Stage or the Qualifiers.",
+        "G.O.A.T. Pendant for those who finish in the top 50% at the end of the event",
+        "Golden G.O.A.T. pendant for those who finish in the top 20% at the end of the event",
+        "'100%' title for those who get all the guesses right at the end of the event"
+      ]
+    }
+  ]
+}
